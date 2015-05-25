@@ -6,12 +6,12 @@ class ContentLayout < MK::Layout
   end
 
   def content_style
-    background_color UIColor.whiteColor
+    background_color UIColor.whiteColor # Or, with MK: "#FFFFFF".uitcolor
   end
 
   def notes_style
-    number_of_lines 0
-    text_alignment :center.nsalignment # NSTextAlignmentCenter
+    number_of_lines 0 # making it multi-line
+    text_alignment :left.nsalignment # NSTextAlignmentCenter
 
     constraints do
       left 20
@@ -19,7 +19,7 @@ class ContentLayout < MK::Layout
     end
   end
 
-  def add_top_layout_guide_constraint(controller)
+  def add_constraints(controller)
     unless @constraint_added
       @constraint_added = true
 
