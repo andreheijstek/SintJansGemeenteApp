@@ -1,4 +1,4 @@
-class ContentLayout < MK::Layout
+class ContentLayout < MotionKit::Layout
   def layout
     root :content do
       add UILabel, :notes
