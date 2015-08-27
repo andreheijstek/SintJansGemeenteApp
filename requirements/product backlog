@@ -1,4 +1,7 @@
 SintJansGemeente app - vervanger van de zondagsbrief
+----------------------------------------------------
+
+Markt: er zijn ongeveer 2000 PKN gemeentes in Nederland.
 
 MUST HAVE
 
@@ -6,9 +9,40 @@ Als gemeentelid
 Wil ik de zondagsbrief op mijn smartphone kunnen zien
 Zodat we als gemeente de drukkosten besparen van de papieren brief
 
+    Stel het is zondagmorgen (voor 12:00)
+    Als ik de app start
+    Dan moet ik de zondagsbrief voor de ochtenddienst zien
+
+     Stel het is zondagmiddag (na 12:00)
+     Als ik de app start
+     Dan moet ik de zondagsbrief voor de middagdienst zien
+
+     Stel het is woensdagmiddag
+     En er is geen doordeweekse dienst
+     Als ik de app start
+     En als de zondagsbrief al klaar is
+     Dan moet ik de zondagsbrief voor zondagmorgen zien
+
+     ...
+     En als de zondagsbrief nog niet klaar is
+     Dan moet ik een melding krijgen
+
+     ...
+     En er is wel een doordeweekse dienst
+     Als ik de app start
+     Dan moet ik de zondagsbrief voor de woensdagavond zien
+
 Als zondagsbriefredacteur
 Wil ik de content maar 1x hoeven aanmaken
 Zodat ik geen dubbel werk heb voor de papieren versie en de app
+
+    Stel ik heb de zondagsbrief content gemaakt
+    Als ik op publish_to_app klik
+    Dan moet de brief op de app te zien zijn
+    Als ik op publish_to_word klik
+    Dan moet er een word document gegenereerd worden
+    Als ik op publish_to_pfd klik
+    Dan moet er een pdf document gegenereerd worden
 
 NICE TO HAVE
 
@@ -19,3 +53,35 @@ Zodat ik onbekende liederen goed kan meezingen
 Als eigenaar van de app
 Wil ik dat meerdere gemeentes van de app kunnen gebruikmaken
 Zodat ik er misschien nog wat geld aan kan verdienen (kosten goedmaken)
+
+    Stel ik ben technisch beheerder van de app
+    Als ik inlog op de website
+    Dan moet ik alle rechten hebben
+    En alle zondagsbrieven van alle gemeenten kunnen zien
+
+    Stel ik ben functioneel beheerder van Gouda/SintJan
+    Als ik inlog op de website
+    Dan moet ik alle rechten hebben binnen Gouda/SintJan
+
+    Stel ik ben functioneel beheerder van Gouda/SintJan
+    Als ik inlog op de website
+    Dan moet ik een nieuwe zondagsbrief voor Gouda/SintJan kunnen maken/aanpassen
+
+    ... maar niet voor Utrecht/Jacobikerk
+
+Als slechtziend gemeentelid
+Wil ik de zondagsbrief in grote letters ontvangen
+Zodat ik toch de dienst kan meebeleven
+
+    Stel ik heb de zondagsbrief content gemaakt
+    Als ik op publish_to_word klik
+    En ik de optie grote letters heb gekozen
+    Dan moet er een word document gegenereerd worden met grotere letters
+
+Als gemeente
+Wil ik mijn eigen huisstijl gebruiken op de zondagsbrief
+Omdat dit herkenbaar is en de verbondenheid met de gemeente versterkt
+
+    Stel
+    Als
+    Dan

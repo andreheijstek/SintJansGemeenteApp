@@ -19,19 +19,12 @@ class Content
         self.send("#{key}=", value)
       end
     end
+    get_from_website
   end
 
   def get_from_website
     AFMotion::HTTP.get("http://www.improvementfocus.com/pages/zondagsbrief.php") do |result|
       p result.body
     end
-    output = ""
-    AFMotion::HTTP.get("http://www.google.com") do |response|
-      puts "Inside do block 1"
-      p response
-      p response.body
-      output = response.body.to_str.dup
-    end
-    output
   end
 end

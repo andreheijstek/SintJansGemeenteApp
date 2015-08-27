@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>AFURLConnectionOperation.m - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../../../../";
+</script>
+
+<script src="../../../../js/jquery.js"></script>
+<script src="../../../../js/darkfish.js"></script>
+
+<link href="../../../../css/fonts.css" rel="stylesheet">
+<link href="../../../../css/rdoc.css" rel="stylesheet">
+
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../../../../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../../../../table_of_contents.html#pages">Pages</a>
+    <a href="../../../../table_of_contents.html#classes">Classes</a>
+    <a href="../../../../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="project-metadata">
+    <div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../../../../Gemfile.html">Gemfile</a>
+  
+    <li><a href="../../../../Gemfile_lock.html">Gemfile.lock</a>
+  
+    <li><a href="../../../../Rakefile.html">Rakefile</a>
+  
+    <li><a href="../../../../app/controllers/main_view_controller_txt.html">main_view_controller</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_app/PkgInfo.html">PkgInfo</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_app/SintjansGemeenteApp_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_spec_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_spec_app/PkgInfo.html">PkgInfo</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_spec_app/SintjansGemeenteApp_spec_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/objs/init_mm.html">init.mm</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/objs/main_mm.html">main.mm</a>
+  
+    <li><a href="../../../../design/class structure.html">class structure</a>
+  
+    <li><a href="../../../../ib_xcodeproj/Stubs_m.html">Stubs.m</a>
+  
+    <li><a href="../../../../ib_xcodeproj/project_pbxproj.html">project.pbxproj</a>
+  
+    <li><a href="../../../../ib_xcodeproj/project_xcworkspace/contents_xcworkspacedata.html">contents.xcworkspacedata</a>
+  
+    <li><a href="../../../../ib_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/ib_xcscheme.html">ib.xcscheme</a>
+  
+    <li><a href="../../../../ib_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/xcschememanagement_plist.html">xcschememanagement.plist</a>
+  
+    <li><a href="../../../../requirements/product backlog.html">product backlog</a>
+  
+    <li><a href="../../../../resources/Main_storyboard.html">Main.storyboard</a>
+  
+    <li><a href="../../../../vendor/Podfile_lock.html">Podfile.lock</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation_m.html">AFHTTPRequestOperation.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager_m.html">AFHTTPRequestOperationManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager_m.html">AFHTTPSessionManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager_m.html">AFNetworkReachabilityManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFSecurityPolicy_m.html">AFSecurityPolicy.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation_m.html">AFURLConnectionOperation.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization_m.html">AFURLRequestSerialization.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization_m.html">AFURLResponseSerialization.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLSessionManager_m.html">AFURLSessionManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/LICENSE.html">LICENSE</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/README_md.html">README</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager_m.html">AFNetworkActivityIndicatorManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking_m.html">UIActivityIndicatorView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking_m.html">UIAlertView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking_m.html">UIButton+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking_m.html">UIImageView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking_m.html">UIProgressView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking_m.html">UIRefreshControl+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking_m.html">UIWebView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/Manifest_lock.html">Manifest.lock</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/project_pbxproj.html">project.pbxproj</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/Pods-AFNetworking_xcscheme.html">Pods-AFNetworking.xcscheme</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/Pods_xcscheme.html">Pods.xcscheme</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/xcschememanagement_plist.html">xcschememanagement.plist</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking-Private_xcconfig.html">Pods-AFNetworking-Private.xcconfig</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking-dummy_m.html">Pods-AFNetworking-dummy.m</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking-prefix_pch.html">Pods-AFNetworking-prefix.pch</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking_xcconfig.html">Pods-AFNetworking.xcconfig</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-acknowledgements_markdown.html">Pods-acknowledgements.markdown</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-acknowledgements_plist.html">Pods-acknowledgements.plist</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-dummy_m.html">Pods-dummy.m</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-resources_sh.html">Pods-resources.sh</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods_debug_xcconfig.html">Pods.debug.xcconfig</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods_release_xcconfig.html">Pods.release.xcconfig</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFHTTPRequestOperation_d.html">AFHTTPRequestOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFHTTPRequestOperationManager_d.html">AFHTTPRequestOperationManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFHTTPSessionManager_d.html">AFHTTPSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFNetworkActivityIndicatorManager_d.html">AFNetworkActivityIndicatorManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFNetworkReachabilityManager_d.html">AFNetworkReachabilityManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFSecurityPolicy_d.html">AFSecurityPolicy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLConnectionOperation_d.html">AFURLConnectionOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLRequestSerialization_d.html">AFURLRequestSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLResponseSerialization_d.html">AFURLResponseSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLSessionManager_d.html">AFURLSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/Pods-AFNetworking-dummy_d.html">Pods-AFNetworking-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/Pods-AFNetworking_LinkFileList.html">Pods-AFNetworking.LinkFileList</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIActivityIndicatorView+AFNetworking_d.html">UIActivityIndicatorView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIAlertView+AFNetworking_d.html">UIAlertView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIButton+AFNetworking_d.html">UIButton+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIImageView+AFNetworking_d.html">UIImageView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIProgressView+AFNetworking_d.html">UIProgressView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIRefreshControl+AFNetworking_d.html">UIRefreshControl+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIWebView+AFNetworking_d.html">UIWebView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFHTTPRequestOperation_d.html">AFHTTPRequestOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFHTTPRequestOperationManager_d.html">AFHTTPRequestOperationManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFHTTPSessionManager_d.html">AFHTTPSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager_d.html">AFNetworkActivityIndicatorManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFNetworkReachabilityManager_d.html">AFNetworkReachabilityManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFSecurityPolicy_d.html">AFSecurityPolicy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLConnectionOperation_d.html">AFURLConnectionOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLRequestSerialization_d.html">AFURLRequestSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLResponseSerialization_d.html">AFURLResponseSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLSessionManager_d.html">AFURLSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/Pods-AFNetworking-dummy_d.html">Pods-AFNetworking-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/Pods-AFNetworking_LinkFileList.html">Pods-AFNetworking.LinkFileList</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIActivityIndicatorView+AFNetworking_d.html">UIActivityIndicatorView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIAlertView+AFNetworking_d.html">UIAlertView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIButton+AFNetworking_d.html">UIButton+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIImageView+AFNetworking_d.html">UIImageView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIProgressView+AFNetworking_d.html">UIProgressView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIRefreshControl+AFNetworking_d.html">UIRefreshControl+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIWebView+AFNetworking_d.html">UIWebView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/i386/Pods-dummy_d.html">Pods-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/i386/Pods_LinkFileList.html">Pods.LinkFileList</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/x86_64/Pods-dummy_d.html">Pods-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/x86_64/Pods_LinkFileList.html">Pods.LinkFileList</a>
+  
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page vendor/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m">
+
+<p>// AFURLConnectionOperation.m // Copyright © 2011–2015 Alamofire Software
+Foundation (<a href="http://alamofire.org">alamofire.org</a>/) // //
+Permission is hereby granted, free of charge, to any person obtaining a
+copy // of this software and associated documentation files (the
+“Software”), to deal // in the Software without restriction, including
+without limitation the rights // to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell // copies of the Software, and to
+permit persons to whom the Software is // furnished to do so, subject to
+the following conditions: // // The above copyright notice and this
+permission notice shall be included in // all copies or substantial
+portions of the Software. // // THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT
+WARRANTY OF ANY KIND, EXPRESS OR // IMPLIED, INCLUDING BUT NOT LIMITED TO
+THE WARRANTIES OF MERCHANTABILITY, // FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE // AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER // LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, // OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN // THE SOFTWARE.</p>
+
+<p>import “AFURLConnectionOperation.h”</p>
+
+<p>if defined(__IPHONE_OS_VERSION_MIN_REQUIRED) import &lt;UIKit/UIKit.h&gt;
+endif</p>
+
+<p>if !__has_feature(objc_arc) error AFNetworking must be built with ARC. //
+You can turn on ARC for only AFNetworking files by adding -fobjc-arc to the
+build phase for each of its files. endif</p>
+
+<p>typedef NS_ENUM(NSInteger, AFOperationState) {</p>
+
+<pre>AFOperationPausedState      = -1,
+AFOperationReadyState       = 1,
+AFOperationExecutingState   = 2,
+AFOperationFinishedState    = 3,</pre>
+
+<p>};</p>
+
+<p>if defined(__IPHONE_OS_VERSION_MIN_REQUIRED) &amp;&amp;
+!defined(AF_APP_EXTENSIONS) typedef UIBackgroundTaskIdentifier
+AFBackgroundTaskIdentifier; else typedef id AFBackgroundTaskIdentifier;
+endif</p>
+
+<p>static dispatch_group_t url_request_operation_completion_group() {</p>
+
+<pre>static dispatch_group_t af_url_request_operation_completion_group;
+static dispatch_once_t onceToken;
+dispatch_once(&amp;onceToken, ^{
+    af_url_request_operation_completion_group = dispatch_group_create();
+});
+
+return af_url_request_operation_completion_group;</pre>
+
+<p>}</p>
+
+<p>static dispatch_queue_t url_request_operation_completion_queue() {</p>
+
+<pre>static dispatch_queue_t af_url_request_operation_completion_queue;
+static dispatch_once_t onceToken;
+dispatch_once(&amp;onceToken, ^{
+    af_url_request_operation_completion_queue = dispatch_queue_create(&quot;com.alamofire.networking.operation.queue&quot;, DISPATCH_QUEUE_CONCURRENT );
+});
+
+return af_url_request_operation_completion_queue;</pre>
+
+<p>}</p>
+
+<p>static NSString * const kAFNetworkingLockName =
+@“com.alamofire.networking.operation.lock”;</p>
+
+<p>NSString * const AFNetworkingOperationDidStartNotification =
+@“com.alamofire.networking.operation.start”; NSString * const
+AFNetworkingOperationDidFinishNotification =
+@“com.alamofire.networking.operation.finish”;</p>
+
+<p>typedef void (^AFURLConnectionOperationProgressBlock)(NSUInteger bytes,
+long long totalBytes, long long totalBytesExpected); typedef void
+(^AFURLConnectionOperationAuthenticationChallengeBlock)(NSURLConnection
+*connection, NSURLAuthenticationChallenge *challenge); typedef
+NSCachedURLResponse *
+(^AFURLConnectionOperationCacheResponseBlock)(NSURLConnection *connection,
+NSCachedURLResponse *cachedResponse); typedef NSURLRequest *
+(^AFURLConnectionOperationRedirectResponseBlock)(NSURLConnection
+*connection, NSURLRequest *request, NSURLResponse *redirectResponse);</p>
+
+<p>static inline NSString * AFKeyPathFromOperationState(AFOperationState
+state) {</p>
+
+<pre>switch (state) {
+    case AFOperationReadyState:
+        return @&quot;isReady&quot;;
+    case AFOperationExecutingState:
+        return @&quot;isExecuting&quot;;
+    case AFOperationFinishedState:
+        return @&quot;isFinished&quot;;
+    case AFOperationPausedState:
+        return @&quot;isPaused&quot;;
+    default: {</pre>
+
+<p>pragma clang diagnostic push pragma clang diagnostic ignored
+“-Wunreachable-code”</p>
+
+<pre>return @&quot;state&quot;;</pre>
+
+<p>pragma clang diagnostic pop</p>
+
+<pre>    }
+}</pre>
+
+<p>}</p>
+
+<p>static inline BOOL AFStateTransitionIsValid(AFOperationState fromState,
+AFOperationState toState, BOOL isCancelled) {</p>
+
+<pre>switch (fromState) {
+    case AFOperationReadyState:
+        switch (toState) {
+            case AFOperationPausedState:
+            case AFOperationExecutingState:
+                return YES;
+            case AFOperationFinishedState:
+                return isCancelled;
+            default:
+                return NO;
+        }
+    case AFOperationExecutingState:
+        switch (toState) {
+            case AFOperationPausedState:
+            case AFOperationFinishedState:
+                return YES;
+            default:
+                return NO;
+        }
+    case AFOperationFinishedState:
+        return NO;
+    case AFOperationPausedState:
+        return toState == AFOperationReadyState;
+    default: {</pre>
+
+<p>pragma clang diagnostic push pragma clang diagnostic ignored
+“-Wunreachable-code”</p>
+
+<pre>    switch (toState) {
+        case AFOperationPausedState:
+        case AFOperationReadyState:
+        case AFOperationExecutingState:
+        case AFOperationFinishedState:
+            return YES;
+        default:
+            return NO;
+    }
+}</pre>
+
+<p>pragma clang diagnostic pop</p>
+
+<pre>}</pre>
+
+<p>}</p>
+
+<p>@interface AFURLConnectionOperation () @property (readwrite, nonatomic,
+assign) AFOperationState state; @property (readwrite, nonatomic, strong)
+NSRecursiveLock *lock; @property (readwrite, nonatomic, strong)
+NSURLConnection *connection; @property (readwrite, nonatomic, strong)
+NSURLRequest *request; @property (readwrite, nonatomic, strong)
+NSURLResponse *response; @property (readwrite, nonatomic, strong) NSError
+*error; @property (readwrite, nonatomic, strong) NSData *responseData;
+@property (readwrite, nonatomic, copy) NSString *responseString; @property
+(readwrite, nonatomic, assign) NSStringEncoding responseStringEncoding;
+@property (readwrite, nonatomic, assign) long long totalBytesRead;
+@property (readwrite, nonatomic, assign) AFBackgroundTaskIdentifier
+backgroundTaskIdentifier; @property (readwrite, nonatomic, copy)
+AFURLConnectionOperationProgressBlock uploadProgress; @property (readwrite,
+nonatomic, copy) AFURLConnectionOperationProgressBlock downloadProgress;
+@property (readwrite, nonatomic, copy)
+AFURLConnectionOperationAuthenticationChallengeBlock
+authenticationChallenge; @property (readwrite, nonatomic, copy)
+AFURLConnectionOperationCacheResponseBlock cacheResponse; @property
+(readwrite, nonatomic, copy) AFURLConnectionOperationRedirectResponseBlock
+redirectResponse;</p>
+<ul><li>
+<p>(void)operationDidStart;</p>
+</li><li>
+<p>(void)finish;</p>
+</li><li>
+<p>(void)cancelConnection;</p>
+</li></ul>
+
+<p>@end</p>
+
+<p>@implementation AFURLConnectionOperation @synthesize outputStream =
+_outputStream;</p>
+
+<p>+ (void)networkRequestThreadEntryPoint:(id)__unused object {</p>
+
+<pre>@autoreleasepool {
+    [[NSThread currentThread] setName:@&quot;AFNetworking&quot;];
+
+    NSRunLoop *runLoop = [NSRunLoop currentRunLoop];
+    [runLoop addPort:[NSMachPort port] forMode:NSDefaultRunLoopMode];
+    [runLoop run];
+}</pre>
+
+<p>}</p>
+
+<p>+ (NSThread *)networkRequestThread {</p>
+
+<pre>static NSThread *_networkRequestThread = nil;
+static dispatch_once_t oncePredicate;
+dispatch_once(&amp;oncePredicate, ^{
+    _networkRequestThread = [[NSThread alloc] initWithTarget:self selector:@selector(networkRequestThreadEntryPoint:) object:nil];
+    [_networkRequestThread start];
+});
+
+return _networkRequestThread;</pre>
+
+<p>}</p>
+<ul><li>
+<p>(instancetype)initWithRequest:(NSURLRequest *)urlRequest {</p>
+
+<pre>NSParameterAssert(urlRequest);
+
+self = [super init];
+if (!self) {
+            return nil;
+}
+
+_state = AFOperationReadyState;
+
+self.lock = [[NSRecursiveLock alloc] init];
+self.lock.name = kAFNetworkingLockName;
+
+self.runLoopModes = [NSSet setWithObject:NSRunLoopCommonModes];
+
+self.request = urlRequest;
+
+self.shouldUseCredentialStorage = YES;
+
+self.securityPolicy = [AFSecurityPolicy defaultPolicy];
+
+return self;</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)dealloc {</p>
+
+<pre>if (_outputStream) {
+    [_outputStream close];
+    _outputStream = nil;
+}</pre>
+</li></ul>
+
+<p>if defined(__IPHONE_OS_VERSION_MIN_REQUIRED) &amp;&amp;
+!defined(AF_APP_EXTENSIONS)</p>
+
+<pre>if (_backgroundTaskIdentifier) {
+    [[UIApplication sharedApplication] endBackgroundTask:_backgroundTaskIdentifier];
+    _backgroundTaskIdentifier = UIBackgroundTaskInvalid;
+}</pre>
+
+<p>endif }</p>
+
+<p>pragma mark -</p>
+<ul><li>
+<p>(void)setResponseData:(NSData *)responseData {</p>
+
+<pre>[self.lock lock];
+if (!responseData) {
+    _responseData = nil;
+} else {
+    _responseData = [NSData dataWithBytes:responseData.bytes length:responseData.length];
+}
+[self.lock unlock];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(NSString *)responseString {</p>
+
+<pre>[self.lock lock];
+if (!_responseString &amp;&amp; self.response &amp;&amp; self.responseData) {
+    self.responseString = [[NSString alloc] initWithData:self.responseData encoding:self.responseStringEncoding];
+}
+[self.lock unlock];
+
+return _responseString;</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(NSStringEncoding)responseStringEncoding {</p>
+
+<pre>[self.lock lock];
+if (!_responseStringEncoding &amp;&amp; self.response) {
+    NSStringEncoding stringEncoding = NSUTF8StringEncoding;
+    if (self.response.textEncodingName) {
+        CFStringEncoding IANAEncoding = CFStringConvertIANACharSetNameToEncoding((__bridge CFStringRef)self.response.textEncodingName);
+        if (IANAEncoding != kCFStringEncodingInvalidId) {
+            stringEncoding = CFStringConvertEncodingToNSStringEncoding(IANAEncoding);
+        }
+    }
+
+    self.responseStringEncoding = stringEncoding;
+}
+[self.lock unlock];
+
+return _responseStringEncoding;</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(NSInputStream *)inputStream {</p>
+
+<pre class="ruby"><span class="ruby-keyword">return</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">request</span>.<span class="ruby-constant">HTTPBodyStream</span>;
+</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)setInputStream:(NSInputStream *)inputStream {</p>
+
+<pre>NSMutableURLRequest *mutableRequest = [self.request mutableCopy];
+mutableRequest.HTTPBodyStream = inputStream;
+self.request = mutableRequest;</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(NSOutputStream *)outputStream {</p>
+
+<pre>if (!_outputStream) {
+    self.outputStream = [NSOutputStream outputStreamToMemory];
+}
+
+return _outputStream;</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)setOutputStream:(NSOutputStream *)outputStream {</p>
+
+<pre>[self.lock lock];
+if (outputStream != _outputStream) {
+    if (_outputStream) {
+        [_outputStream close];
+    }
+
+    _outputStream = outputStream;
+}
+[self.lock unlock];</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>if defined(__IPHONE_OS_VERSION_MIN_REQUIRED) &amp;&amp;
+!defined(AF_APP_EXTENSIONS)</p>
+<ul><li>
+<p>(void)setShouldExecuteAsBackgroundTaskWithExpirationHandler:(void
+(^)(void))handler {</p>
+
+<pre>[self.lock lock];
+if (!self.backgroundTaskIdentifier) {
+    UIApplication *application = [UIApplication sharedApplication];
+    __weak __typeof(self)weakSelf = self;
+    self.backgroundTaskIdentifier = [application beginBackgroundTaskWithExpirationHandler:^{
+        __strong __typeof(weakSelf)strongSelf = weakSelf;
+
+        if (handler) {
+            handler();
+        }
+
+        if (strongSelf) {
+            [strongSelf cancel];
+
+            [application endBackgroundTask:strongSelf.backgroundTaskIdentifier];
+            strongSelf.backgroundTaskIdentifier = UIBackgroundTaskInvalid;
+        }
+    }];
+}
+[self.lock unlock];</pre>
+</li></ul>
+
+<p>} endif</p>
+
+<p>pragma mark -</p>
+<ul><li>
+<p>(void)setState:(AFOperationState)state {</p>
+
+<pre>if (!AFStateTransitionIsValid(self.state, state, [self isCancelled])) {
+    return;
+}
+
+[self.lock lock];
+NSString *oldStateKey = AFKeyPathFromOperationState(self.state);
+NSString *newStateKey = AFKeyPathFromOperationState(state);
+
+[self willChangeValueForKey:newStateKey];
+[self willChangeValueForKey:oldStateKey];
+_state = state;
+[self didChangeValueForKey:oldStateKey];
+[self didChangeValueForKey:newStateKey];
+[self.lock unlock];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)pause {</p>
+
+<pre>if ([self isPaused] || [self isFinished] || [self isCancelled]) {
+    return;
+}
+
+[self.lock lock];
+if ([self isExecuting]) {
+    [self performSelector:@selector(operationDidPause) onThread:[[self class] networkRequestThread] withObject:nil waitUntilDone:NO modes:[self.runLoopModes allObjects]];
+
+    dispatch_async(dispatch_get_main_queue(), ^{
+        NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
+        [notificationCenter postNotificationName:AFNetworkingOperationDidFinishNotification object:self];
+    });
+}
+
+self.state = AFOperationPausedState;
+[self.lock unlock];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)operationDidPause {</p>
+
+<pre>[self.lock lock];
+[self.connection cancel];
+[self.lock unlock];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(BOOL)isPaused {</p>
+
+<pre class="ruby"><span class="ruby-keyword">return</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">state</span> <span class="ruby-operator">==</span> <span class="ruby-constant">AFOperationPausedState</span>;
+</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)resume {</p>
+
+<pre>if (![self isPaused]) {
+    return;
+}
+
+[self.lock lock];
+self.state = AFOperationReadyState;
+
+[self start];
+[self.lock unlock];</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark -</p>
+<ul><li>
+<p>(void)setUploadProgressBlock:(void (^)(NSUInteger bytesWritten, long long
+totalBytesWritten, long long totalBytesExpectedToWrite))block {</p>
+
+<pre class="ruby"><span class="ruby-keyword">self</span>.<span class="ruby-identifier">uploadProgress</span> = <span class="ruby-identifier">block</span>;
+</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)setDownloadProgressBlock:(void (^)(NSUInteger bytesRead, long long
+totalBytesRead, long long totalBytesExpectedToRead))block {</p>
+
+<pre class="ruby"><span class="ruby-keyword">self</span>.<span class="ruby-identifier">downloadProgress</span> = <span class="ruby-identifier">block</span>;
+</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)setWillSendRequestForAuthenticationChallengeBlock:(void
+(^)(NSURLConnection *connection, NSURLAuthenticationChallenge
+*challenge))block {</p>
+
+<pre class="ruby"><span class="ruby-keyword">self</span>.<span class="ruby-identifier">authenticationChallenge</span> = <span class="ruby-identifier">block</span>;
+</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)setCacheResponseBlock:(NSCachedURLResponse * (^)(NSURLConnection
+*connection, NSCachedURLResponse *cachedResponse))block {</p>
+
+<pre class="ruby"><span class="ruby-keyword">self</span>.<span class="ruby-identifier">cacheResponse</span> = <span class="ruby-identifier">block</span>;
+</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)setRedirectResponseBlock:(NSURLRequest * (^)(NSURLConnection
+*connection, NSURLRequest *request, NSURLResponse *redirectResponse))block
+{</p>
+
+<pre class="ruby"><span class="ruby-keyword">self</span>.<span class="ruby-identifier">redirectResponse</span> = <span class="ruby-identifier">block</span>;
+</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark - NSOperation</p>
+<ul><li>
+<p>(void)setCompletionBlock:(void (^)(void))block {</p>
+
+<pre>[self.lock lock];
+if (!block) {
+    [super setCompletionBlock:nil];
+} else {
+    __weak __typeof(self)weakSelf = self;
+    [super setCompletionBlock:^ {
+        __strong __typeof(weakSelf)strongSelf = weakSelf;</pre>
+</li></ul>
+
+<p>pragma clang diagnostic push pragma clang diagnostic ignored “-Wgnu”</p>
+
+<pre>dispatch_group_t group = strongSelf.completionGroup ?: url_request_operation_completion_group();
+dispatch_queue_t queue = strongSelf.completionQueue ?: dispatch_get_main_queue();</pre>
+
+<p>pragma clang diagnostic pop</p>
+
+<pre>        dispatch_group_async(group, queue, ^{
+            block();
+        });
+
+        dispatch_group_notify(group, url_request_operation_completion_queue(), ^{
+            [strongSelf setCompletionBlock:nil];
+        });
+    }];
+}
+[self.lock unlock];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(BOOL)isReady {</p>
+
+<pre>return self.state == AFOperationReadyState &amp;&amp; [super isReady];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(BOOL)isExecuting {</p>
+
+<pre class="ruby"><span class="ruby-keyword">return</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">state</span> <span class="ruby-operator">==</span> <span class="ruby-constant">AFOperationExecutingState</span>;
+</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(BOOL)isFinished {</p>
+
+<pre class="ruby"><span class="ruby-keyword">return</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">state</span> <span class="ruby-operator">==</span> <span class="ruby-constant">AFOperationFinishedState</span>;
+</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(BOOL)isConcurrent {</p>
+
+<pre class="ruby"><span class="ruby-keyword">return</span> <span class="ruby-constant">YES</span>;
+</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)start {</p>
+
+<pre>[self.lock lock];
+if ([self isCancelled]) {
+    [self performSelector:@selector(cancelConnection) onThread:[[self class] networkRequestThread] withObject:nil waitUntilDone:NO modes:[self.runLoopModes allObjects]];
+} else if ([self isReady]) {
+    self.state = AFOperationExecutingState;
+
+    [self performSelector:@selector(operationDidStart) onThread:[[self class] networkRequestThread] withObject:nil waitUntilDone:NO modes:[self.runLoopModes allObjects]];
+}
+[self.lock unlock];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)operationDidStart {</p>
+
+<pre>[self.lock lock];
+if (![self isCancelled]) {
+    self.connection = [[NSURLConnection alloc] initWithRequest:self.request delegate:self startImmediately:NO];
+
+    NSRunLoop *runLoop = [NSRunLoop currentRunLoop];
+    for (NSString *runLoopMode in self.runLoopModes) {
+        [self.connection scheduleInRunLoop:runLoop forMode:runLoopMode];
+        [self.outputStream scheduleInRunLoop:runLoop forMode:runLoopMode];
+    }
+
+    [self.outputStream open];
+    [self.connection start];
+}
+[self.lock unlock];
+
+dispatch_async(dispatch_get_main_queue(), ^{
+    [[NSNotificationCenter defaultCenter] postNotificationName:AFNetworkingOperationDidStartNotification object:self];
+});</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)finish {</p>
+
+<pre>[self.lock lock];
+self.state = AFOperationFinishedState;
+[self.lock unlock];
+
+dispatch_async(dispatch_get_main_queue(), ^{
+    [[NSNotificationCenter defaultCenter] postNotificationName:AFNetworkingOperationDidFinishNotification object:self];
+});</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)cancel {</p>
+
+<pre>[self.lock lock];
+if (![self isFinished] &amp;&amp; ![self isCancelled]) {
+    [super cancel];
+
+    if ([self isExecuting]) {
+        [self performSelector:@selector(cancelConnection) onThread:[[self class] networkRequestThread] withObject:nil waitUntilDone:NO modes:[self.runLoopModes allObjects]];
+    }
+}
+[self.lock unlock];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)cancelConnection {</p>
+
+<pre>NSDictionary *userInfo = nil;
+if ([self.request URL]) {
+    userInfo = [NSDictionary dictionaryWithObject:[self.request URL] forKey:NSURLErrorFailingURLErrorKey];
+}
+NSError *error = [NSError errorWithDomain:NSURLErrorDomain code:NSURLErrorCancelled userInfo:userInfo];
+
+if (![self isFinished]) {
+    if (self.connection) {
+        [self.connection cancel];
+        [self performSelector:@selector(connection:didFailWithError:) withObject:self.connection withObject:error];
+    } else {
+        // Accomodate race condition where `self.connection` has not yet been set before cancellation
+        self.error = error;
+        [self finish];
+    }
+}</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark -</p>
+
+<p>+ (NSArray *)batchOfRequestOperations:(NSArray *)operations</p>
+
+<pre>  progressBlock:(void (^)(NSUInteger numberOfFinishedOperations, NSUInteger totalNumberOfOperations))progressBlock
+completionBlock:(void (^)(NSArray *operations))completionBlock</pre>
+
+<p>{</p>
+
+<pre>if (!operations || [operations count] == 0) {
+    return @[[NSBlockOperation blockOperationWithBlock:^{
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (completionBlock) {
+                completionBlock(@[]);
+            }
+        });
+    }]];
+}
+
+__block dispatch_group_t group = dispatch_group_create();
+NSBlockOperation *batchedOperation = [NSBlockOperation blockOperationWithBlock:^{
+    dispatch_group_notify(group, dispatch_get_main_queue(), ^{
+        if (completionBlock) {
+            completionBlock(operations);
+        }
+    });
+}];
+
+for (AFURLConnectionOperation *operation in operations) {
+    operation.completionGroup = group;
+    void (^originalCompletionBlock)(void) = [operation.completionBlock copy];
+    __weak __typeof(operation)weakOperation = operation;
+    operation.completionBlock = ^{
+        __strong __typeof(weakOperation)strongOperation = weakOperation;</pre>
+
+<p>pragma clang diagnostic push pragma clang diagnostic ignored “-Wgnu”</p>
+
+<pre>dispatch_queue_t queue = strongOperation.completionQueue ?: dispatch_get_main_queue();</pre>
+
+<p>pragma clang diagnostic pop</p>
+
+<pre>        dispatch_group_async(group, queue, ^{
+            if (originalCompletionBlock) {
+                originalCompletionBlock();
+            }
+
+            NSUInteger numberOfFinishedOperations = [[operations indexesOfObjectsPassingTest:^BOOL(id op, NSUInteger __unused idx,  BOOL __unused *stop) {
+                return [op isFinished];
+            }] count];
+
+            if (progressBlock) {
+                progressBlock(numberOfFinishedOperations, [operations count]);
+            }
+
+            dispatch_group_leave(group);
+        });
+    };
+
+    dispatch_group_enter(group);
+    [batchedOperation addDependency:operation];
+}
+
+return [operations arrayByAddingObject:batchedOperation];</pre>
+
+<p>}</p>
+
+<p>pragma mark - NSObject</p>
+<ul><li>
+<p>(NSString *)description {</p>
+
+<pre>[self.lock lock];
+NSString *description = [NSString stringWithFormat:@&quot;&lt;%@: %p, state: %@, cancelled: %@ request: %@, response: %@&gt;&quot;, NSStringFromClass([self class]), self, AFKeyPathFromOperationState(self.state), ([self isCancelled] ? @&quot;YES&quot; : @&quot;NO&quot;), self.request, self.response];
+[self.lock unlock];
+return description;</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark - NSURLConnectionDelegate</p>
+<ul><li>
+<p>(void)connection:(NSURLConnection *)connection</p>
+</li></ul>
+
+<p>willSendRequestForAuthenticationChallenge:(NSURLAuthenticationChallenge
+*)challenge {</p>
+
+<pre>if (self.authenticationChallenge) {
+    self.authenticationChallenge(connection, challenge);
+    return;
+}
+
+if ([challenge.protectionSpace.authenticationMethod isEqualToString:NSURLAuthenticationMethodServerTrust]) {
+    if ([self.securityPolicy evaluateServerTrust:challenge.protectionSpace.serverTrust forDomain:challenge.protectionSpace.host]) {
+        NSURLCredential *credential = [NSURLCredential credentialForTrust:challenge.protectionSpace.serverTrust];
+        [[challenge sender] useCredential:credential forAuthenticationChallenge:challenge];
+    } else {
+        [[challenge sender] cancelAuthenticationChallenge:challenge];
+    }
+} else {
+    if ([challenge previousFailureCount] == 0) {
+        if (self.credential) {
+            [[challenge sender] useCredential:self.credential forAuthenticationChallenge:challenge];
+        } else {
+            [[challenge sender] continueWithoutCredentialForAuthenticationChallenge:challenge];
+        }
+    } else {
+        [[challenge sender] continueWithoutCredentialForAuthenticationChallenge:challenge];
+    }
+}</pre>
+
+<p>}</p>
+<ul><li>
+<p>(BOOL)connectionShouldUseCredentialStorage:(NSURLConnection __unused
+*)connection {</p>
+
+<pre class="ruby"><span class="ruby-keyword">return</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">shouldUseCredentialStorage</span>;
+</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(NSURLRequest *)connection:(NSURLConnection *)connection</p>
+
+<pre> willSendRequest:(NSURLRequest *)request
+redirectResponse:(NSURLResponse *)redirectResponse</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>if (self.redirectResponse) {
+    return self.redirectResponse(connection, request, redirectResponse);
+} else {
+    return request;
+}</pre>
+
+<p>}</p>
+<ul><li>
+<p>(void)connection:(NSURLConnection __unused *)connection</p>
+
+<pre>didSendBodyData:(NSInteger)bytesWritten</pre>
+</li></ul>
+
+<pre>totalBytesWritten:(NSInteger)totalBytesWritten</pre>
+
+<p>totalBytesExpectedToWrite:(NSInteger)totalBytesExpectedToWrite {</p>
+
+<pre>dispatch_async(dispatch_get_main_queue(), ^{
+    if (self.uploadProgress) {
+        self.uploadProgress((NSUInteger)bytesWritten, totalBytesWritten, totalBytesExpectedToWrite);
+    }
+});</pre>
+
+<p>}</p>
+<ul><li>
+<p>(void)connection:(NSURLConnection __unused *)connection</p>
+</li></ul>
+
+<p>didReceiveResponse:(NSURLResponse *)response {</p>
+
+<pre class="ruby"><span class="ruby-keyword">self</span>.<span class="ruby-identifier">response</span> = <span class="ruby-identifier">response</span>;
+</pre>
+
+<p>}</p>
+<ul><li>
+<p>(void)connection:(NSURLConnection __unused *)connection</p>
+
+<pre>didReceiveData:(NSData *)data</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>NSUInteger length = [data length];
+while (YES) {
+    NSInteger totalNumberOfBytesWritten = 0;
+    if ([self.outputStream hasSpaceAvailable]) {
+        const uint8_t *dataBuffer = (uint8_t *)[data bytes];
+
+        NSInteger numberOfBytesWritten = 0;
+        while (totalNumberOfBytesWritten &lt; (NSInteger)length) {
+            numberOfBytesWritten = [self.outputStream write:&amp;dataBuffer[(NSUInteger)totalNumberOfBytesWritten] maxLength:(length - (NSUInteger)totalNumberOfBytesWritten)];
+            if (numberOfBytesWritten == -1) {
+                break;
+            }
+
+            totalNumberOfBytesWritten += numberOfBytesWritten;
+        }
+
+        break;
+    }
+
+    if (self.outputStream.streamError) {
+        [self.connection cancel];
+        [self performSelector:@selector(connection:didFailWithError:) withObject:self.connection withObject:self.outputStream.streamError];
+        return;
+    }
+}
+
+dispatch_async(dispatch_get_main_queue(), ^{
+    self.totalBytesRead += (long long)length;
+
+    if (self.downloadProgress) {
+        self.downloadProgress(length, self.totalBytesRead, self.response.expectedContentLength);
+    }
+});</pre>
+
+<p>}</p>
+<ul><li>
+<p>(void)connectionDidFinishLoading:(NSURLConnection __unused *)connection {</p>
+
+<pre>self.responseData = [self.outputStream propertyForKey:NSStreamDataWrittenToMemoryStreamKey];
+
+[self.outputStream close];
+if (self.responseData) {
+   self.outputStream = nil;
+}
+
+self.connection = nil;
+
+[self finish];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)connection:(NSURLConnection __unused *)connection
+didFailWithError:(NSError *)error</p>
+</li></ul>
+
+<p>{</p>
+
+<pre>self.error = error;
+
+[self.outputStream close];
+if (self.responseData) {
+    self.outputStream = nil;
+}
+
+self.connection = nil;
+
+[self finish];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(NSCachedURLResponse *)connection:(NSURLConnection *)connection</p>
+
+<pre>willCacheResponse:(NSCachedURLResponse *)cachedResponse</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>if (self.cacheResponse) {
+    return self.cacheResponse(connection, cachedResponse);
+} else {
+    if ([self isCancelled]) {
+        return nil;
+    }
+
+    return cachedResponse;
+}</pre>
+
+<p>}</p>
+
+<p>pragma mark - NSSecureCoding</p>
+
+<p>+ (BOOL)supportsSecureCoding {</p>
+
+<pre class="ruby"><span class="ruby-keyword">return</span> <span class="ruby-constant">YES</span>;
+</pre>
+
+<p>}</p>
+<ul><li>
+<p>(id)initWithCoder:(NSCoder *)decoder {</p>
+
+<pre>NSURLRequest *request = [decoder decodeObjectOfClass:[NSURLRequest class] forKey:NSStringFromSelector(@selector(request))];
+
+self = [self initWithRequest:request];
+if (!self) {
+    return nil;
+}
+
+self.state = [[decoder decodeObjectOfClass:[NSNumber class] forKey:NSStringFromSelector(@selector(state))] integerValue];
+self.response = [decoder decodeObjectOfClass:[NSHTTPURLResponse class] forKey:NSStringFromSelector(@selector(response))];
+self.error = [decoder decodeObjectOfClass:[NSError class] forKey:NSStringFromSelector(@selector(error))];
+self.responseData = [decoder decodeObjectOfClass:[NSData class] forKey:NSStringFromSelector(@selector(responseData))];
+self.totalBytesRead = [[decoder decodeObjectOfClass:[NSNumber class] forKey:NSStringFromSelector(@selector(totalBytesRead))] longLongValue];
+
+return self;</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)encodeWithCoder:(NSCoder *)coder {</p>
+
+<pre>[self pause];
+
+[coder encodeObject:self.request forKey:NSStringFromSelector(@selector(request))];
+
+switch (self.state) {
+    case AFOperationExecutingState:
+    case AFOperationPausedState:
+        [coder encodeInteger:AFOperationReadyState forKey:NSStringFromSelector(@selector(state))];
+        break;
+    default:
+        [coder encodeInteger:self.state forKey:NSStringFromSelector(@selector(state))];
+        break;
+}
+
+[coder encodeObject:self.response forKey:NSStringFromSelector(@selector(response))];
+[coder encodeObject:self.error forKey:NSStringFromSelector(@selector(error))];
+[coder encodeObject:self.responseData forKey:NSStringFromSelector(@selector(responseData))];
+[coder encodeInt64:self.totalBytesRead forKey:NSStringFromSelector(@selector(totalBytesRead))];</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark - NSCopying</p>
+<ul><li>
+<p>(id)copyWithZone:(NSZone *)zone {</p>
+
+<pre>AFURLConnectionOperation *operation = [(AFURLConnectionOperation *)[[self class] allocWithZone:zone] initWithRequest:self.request];
+
+operation.uploadProgress = self.uploadProgress;
+operation.downloadProgress = self.downloadProgress;
+operation.authenticationChallenge = self.authenticationChallenge;
+operation.cacheResponse = self.cacheResponse;
+operation.redirectResponse = self.redirectResponse;
+operation.completionQueue = self.completionQueue;
+operation.completionGroup = self.completionGroup;
+
+return operation;</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>@end</p>
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://docs.seattlerb.org/rdoc/">RDoc</a> 4.2.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

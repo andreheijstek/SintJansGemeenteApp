@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>AFSecurityPolicy.m - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../../../../";
+</script>
+
+<script src="../../../../js/jquery.js"></script>
+<script src="../../../../js/darkfish.js"></script>
+
+<link href="../../../../css/fonts.css" rel="stylesheet">
+<link href="../../../../css/rdoc.css" rel="stylesheet">
+
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../../../../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../../../../table_of_contents.html#pages">Pages</a>
+    <a href="../../../../table_of_contents.html#classes">Classes</a>
+    <a href="../../../../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="project-metadata">
+    <div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../../../../Gemfile.html">Gemfile</a>
+  
+    <li><a href="../../../../Gemfile_lock.html">Gemfile.lock</a>
+  
+    <li><a href="../../../../Rakefile.html">Rakefile</a>
+  
+    <li><a href="../../../../app/controllers/main_view_controller_txt.html">main_view_controller</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_app/PkgInfo.html">PkgInfo</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_app/SintjansGemeenteApp_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_spec_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_spec_app/PkgInfo.html">PkgInfo</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_spec_app/SintjansGemeenteApp_spec_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/objs/init_mm.html">init.mm</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/objs/main_mm.html">main.mm</a>
+  
+    <li><a href="../../../../design/class structure.html">class structure</a>
+  
+    <li><a href="../../../../ib_xcodeproj/Stubs_m.html">Stubs.m</a>
+  
+    <li><a href="../../../../ib_xcodeproj/project_pbxproj.html">project.pbxproj</a>
+  
+    <li><a href="../../../../ib_xcodeproj/project_xcworkspace/contents_xcworkspacedata.html">contents.xcworkspacedata</a>
+  
+    <li><a href="../../../../ib_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/ib_xcscheme.html">ib.xcscheme</a>
+  
+    <li><a href="../../../../ib_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/xcschememanagement_plist.html">xcschememanagement.plist</a>
+  
+    <li><a href="../../../../requirements/product backlog.html">product backlog</a>
+  
+    <li><a href="../../../../resources/Main_storyboard.html">Main.storyboard</a>
+  
+    <li><a href="../../../../vendor/Podfile_lock.html">Podfile.lock</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation_m.html">AFHTTPRequestOperation.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager_m.html">AFHTTPRequestOperationManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager_m.html">AFHTTPSessionManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager_m.html">AFNetworkReachabilityManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFSecurityPolicy_m.html">AFSecurityPolicy.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation_m.html">AFURLConnectionOperation.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization_m.html">AFURLRequestSerialization.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization_m.html">AFURLResponseSerialization.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLSessionManager_m.html">AFURLSessionManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/LICENSE.html">LICENSE</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/README_md.html">README</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager_m.html">AFNetworkActivityIndicatorManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking_m.html">UIActivityIndicatorView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking_m.html">UIAlertView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking_m.html">UIButton+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking_m.html">UIImageView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking_m.html">UIProgressView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking_m.html">UIRefreshControl+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking_m.html">UIWebView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/Manifest_lock.html">Manifest.lock</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/project_pbxproj.html">project.pbxproj</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/Pods-AFNetworking_xcscheme.html">Pods-AFNetworking.xcscheme</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/Pods_xcscheme.html">Pods.xcscheme</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/xcschememanagement_plist.html">xcschememanagement.plist</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking-Private_xcconfig.html">Pods-AFNetworking-Private.xcconfig</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking-dummy_m.html">Pods-AFNetworking-dummy.m</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking-prefix_pch.html">Pods-AFNetworking-prefix.pch</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking_xcconfig.html">Pods-AFNetworking.xcconfig</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-acknowledgements_markdown.html">Pods-acknowledgements.markdown</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-acknowledgements_plist.html">Pods-acknowledgements.plist</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-dummy_m.html">Pods-dummy.m</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-resources_sh.html">Pods-resources.sh</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods_debug_xcconfig.html">Pods.debug.xcconfig</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods_release_xcconfig.html">Pods.release.xcconfig</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFHTTPRequestOperation_d.html">AFHTTPRequestOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFHTTPRequestOperationManager_d.html">AFHTTPRequestOperationManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFHTTPSessionManager_d.html">AFHTTPSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFNetworkActivityIndicatorManager_d.html">AFNetworkActivityIndicatorManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFNetworkReachabilityManager_d.html">AFNetworkReachabilityManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFSecurityPolicy_d.html">AFSecurityPolicy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLConnectionOperation_d.html">AFURLConnectionOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLRequestSerialization_d.html">AFURLRequestSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLResponseSerialization_d.html">AFURLResponseSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLSessionManager_d.html">AFURLSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/Pods-AFNetworking-dummy_d.html">Pods-AFNetworking-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/Pods-AFNetworking_LinkFileList.html">Pods-AFNetworking.LinkFileList</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIActivityIndicatorView+AFNetworking_d.html">UIActivityIndicatorView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIAlertView+AFNetworking_d.html">UIAlertView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIButton+AFNetworking_d.html">UIButton+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIImageView+AFNetworking_d.html">UIImageView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIProgressView+AFNetworking_d.html">UIProgressView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIRefreshControl+AFNetworking_d.html">UIRefreshControl+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIWebView+AFNetworking_d.html">UIWebView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFHTTPRequestOperation_d.html">AFHTTPRequestOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFHTTPRequestOperationManager_d.html">AFHTTPRequestOperationManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFHTTPSessionManager_d.html">AFHTTPSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager_d.html">AFNetworkActivityIndicatorManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFNetworkReachabilityManager_d.html">AFNetworkReachabilityManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFSecurityPolicy_d.html">AFSecurityPolicy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLConnectionOperation_d.html">AFURLConnectionOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLRequestSerialization_d.html">AFURLRequestSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLResponseSerialization_d.html">AFURLResponseSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLSessionManager_d.html">AFURLSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/Pods-AFNetworking-dummy_d.html">Pods-AFNetworking-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/Pods-AFNetworking_LinkFileList.html">Pods-AFNetworking.LinkFileList</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIActivityIndicatorView+AFNetworking_d.html">UIActivityIndicatorView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIAlertView+AFNetworking_d.html">UIAlertView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIButton+AFNetworking_d.html">UIButton+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIImageView+AFNetworking_d.html">UIImageView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIProgressView+AFNetworking_d.html">UIProgressView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIRefreshControl+AFNetworking_d.html">UIRefreshControl+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIWebView+AFNetworking_d.html">UIWebView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/i386/Pods-dummy_d.html">Pods-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/i386/Pods_LinkFileList.html">Pods.LinkFileList</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/x86_64/Pods-dummy_d.html">Pods-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/x86_64/Pods_LinkFileList.html">Pods.LinkFileList</a>
+  
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page vendor/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m">
+
+<p>// AFSecurityPolicy.m // Copyright © 2011–2015 Alamofire Software
+Foundation (<a href="http://alamofire.org">alamofire.org</a>/) // //
+Permission is hereby granted, free of charge, to any person obtaining a
+copy // of this software and associated documentation files (the
+“Software”), to deal // in the Software without restriction, including
+without limitation the rights // to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell // copies of the Software, and to
+permit persons to whom the Software is // furnished to do so, subject to
+the following conditions: // // The above copyright notice and this
+permission notice shall be included in // all copies or substantial
+portions of the Software. // // THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT
+WARRANTY OF ANY KIND, EXPRESS OR // IMPLIED, INCLUDING BUT NOT LIMITED TO
+THE WARRANTIES OF MERCHANTABILITY, // FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE // AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER // LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, // OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN // THE SOFTWARE.</p>
+
+<p>import “AFSecurityPolicy.h”</p>
+
+<p>import &lt;AssertMacros.h&gt;</p>
+
+<p>if !defined(__IPHONE_OS_VERSION_MIN_REQUIRED) static NSData *
+AFSecKeyGetData(SecKeyRef key) {</p>
+
+<pre>CFDataRef data = NULL;
+
+__Require_noErr_Quiet(SecItemExport(key, kSecFormatUnknown, kSecItemPemArmour, NULL, &amp;data), _out);
+
+return (__bridge_transfer NSData *)data;</pre>
+
+<p>_out:</p>
+
+<pre>if (data) {
+    CFRelease(data);
+}
+
+return nil;</pre>
+
+<p>} endif</p>
+
+<p>static BOOL AFSecKeyIsEqualToKey(SecKeyRef key1, SecKeyRef key2) { if
+defined(__IPHONE_OS_VERSION_MIN_REQUIRED)</p>
+
+<pre>return [(__bridge id)key1 isEqual:(__bridge id)key2];</pre>
+
+<p>else</p>
+
+<pre>return [AFSecKeyGetData(key1) isEqual:AFSecKeyGetData(key2)];</pre>
+
+<p>endif }</p>
+
+<p>static id AFPublicKeyForCertificate(NSData *certificate) {</p>
+
+<pre>id allowedPublicKey = nil;
+SecCertificateRef allowedCertificate;
+SecCertificateRef allowedCertificates[1];
+CFArrayRef tempCertificates = nil;
+SecPolicyRef policy = nil;
+SecTrustRef allowedTrust = nil;
+SecTrustResultType result;
+
+allowedCertificate = SecCertificateCreateWithData(NULL, (__bridge CFDataRef)certificate);
+__Require_Quiet(allowedCertificate != NULL, _out);
+
+allowedCertificates[0] = allowedCertificate;
+tempCertificates = CFArrayCreate(NULL, (const void **)allowedCertificates, 1, NULL);
+
+policy = SecPolicyCreateBasicX509();
+__Require_noErr_Quiet(SecTrustCreateWithCertificates(tempCertificates, policy, &amp;allowedTrust), _out);
+__Require_noErr_Quiet(SecTrustEvaluate(allowedTrust, &amp;result), _out);
+
+allowedPublicKey = (__bridge_transfer id)SecTrustCopyPublicKey(allowedTrust);</pre>
+
+<p>_out:</p>
+
+<pre>if (allowedTrust) {
+    CFRelease(allowedTrust);
+}
+
+if (policy) {
+    CFRelease(policy);
+}
+
+if (tempCertificates) {
+    CFRelease(tempCertificates);
+}
+
+if (allowedCertificate) {
+    CFRelease(allowedCertificate);
+}
+
+return allowedPublicKey;</pre>
+
+<p>}</p>
+
+<p>static BOOL AFServerTrustIsValid(SecTrustRef serverTrust) {</p>
+
+<pre class="ruby"><span class="ruby-constant">BOOL</span> <span class="ruby-identifier">isValid</span> = <span class="ruby-constant">NO</span>;
+<span class="ruby-constant">SecTrustResultType</span> <span class="ruby-identifier">result</span>;
+<span class="ruby-identifier">__Require_noErr_Quiet</span>(<span class="ruby-constant">SecTrustEvaluate</span>(<span class="ruby-identifier">serverTrust</span>, <span class="ruby-operator">&amp;</span><span class="ruby-identifier">result</span>), <span class="ruby-identifier">_out</span>);
+
+<span class="ruby-identifier">isValid</span> = (<span class="ruby-identifier">result</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">kSecTrustResultUnspecified</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">result</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">kSecTrustResultProceed</span>);
+</pre>
+
+<p>_out:</p>
+
+<pre class="ruby"><span class="ruby-keyword">return</span> <span class="ruby-identifier">isValid</span>;
+</pre>
+
+<p>}</p>
+
+<p>static NSArray * AFCertificateTrustChainForServerTrust(SecTrustRef
+serverTrust) {</p>
+
+<pre>CFIndex certificateCount = SecTrustGetCertificateCount(serverTrust);
+NSMutableArray *trustChain = [NSMutableArray arrayWithCapacity:(NSUInteger)certificateCount];
+
+for (CFIndex i = 0; i &lt; certificateCount; i++) {
+    SecCertificateRef certificate = SecTrustGetCertificateAtIndex(serverTrust, i);
+    [trustChain addObject:(__bridge_transfer NSData *)SecCertificateCopyData(certificate)];
+}
+
+return [NSArray arrayWithArray:trustChain];</pre>
+
+<p>}</p>
+
+<p>static NSArray * AFPublicKeyTrustChainForServerTrust(SecTrustRef
+serverTrust) {</p>
+
+<pre>SecPolicyRef policy = SecPolicyCreateBasicX509();
+CFIndex certificateCount = SecTrustGetCertificateCount(serverTrust);
+NSMutableArray *trustChain = [NSMutableArray arrayWithCapacity:(NSUInteger)certificateCount];
+for (CFIndex i = 0; i &lt; certificateCount; i++) {
+    SecCertificateRef certificate = SecTrustGetCertificateAtIndex(serverTrust, i);
+
+    SecCertificateRef someCertificates[] = {certificate};
+    CFArrayRef certificates = CFArrayCreate(NULL, (const void **)someCertificates, 1, NULL);
+
+    SecTrustRef trust;
+    __Require_noErr_Quiet(SecTrustCreateWithCertificates(certificates, policy, &amp;trust), _out);
+
+    SecTrustResultType result;
+    __Require_noErr_Quiet(SecTrustEvaluate(trust, &amp;result), _out);
+
+    [trustChain addObject:(__bridge_transfer id)SecTrustCopyPublicKey(trust)];
+
+_out:
+    if (trust) {
+        CFRelease(trust);
+    }
+
+    if (certificates) {
+        CFRelease(certificates);
+    }
+
+    continue;
+}
+CFRelease(policy);
+
+return [NSArray arrayWithArray:trustChain];</pre>
+
+<p>}</p>
+
+<p>pragma mark -</p>
+
+<p>@interface AFSecurityPolicy() @property (readwrite, nonatomic, assign)
+AFSSLPinningMode SSLPinningMode; @property (readwrite, nonatomic, strong)
+NSArray *pinnedPublicKeys; @end</p>
+
+<p>@implementation AFSecurityPolicy</p>
+
+<p>+ (NSArray *)defaultPinnedCertificates {</p>
+
+<pre>static NSArray *_defaultPinnedCertificates = nil;
+static dispatch_once_t onceToken;
+dispatch_once(&amp;onceToken, ^{
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    NSArray *paths = [bundle pathsForResourcesOfType:@&quot;cer&quot; inDirectory:@&quot;.&quot;];
+
+    NSMutableArray *certificates = [NSMutableArray arrayWithCapacity:[paths count]];
+    for (NSString *path in paths) {
+        NSData *certificateData = [NSData dataWithContentsOfFile:path];
+        [certificates addObject:certificateData];
+    }
+
+    _defaultPinnedCertificates = [[NSArray alloc] initWithArray:certificates];
+});
+
+return _defaultPinnedCertificates;</pre>
+
+<p>}</p>
+
+<p>+ (instancetype)defaultPolicy {</p>
+
+<pre>AFSecurityPolicy *securityPolicy = [[self alloc] init];
+securityPolicy.SSLPinningMode = AFSSLPinningModeNone;
+
+return securityPolicy;</pre>
+
+<p>}</p>
+
+<p>+ (instancetype)policyWithPinningMode:(AFSSLPinningMode)pinningMode {</p>
+
+<pre>AFSecurityPolicy *securityPolicy = [[self alloc] init];
+securityPolicy.SSLPinningMode = pinningMode;
+
+[securityPolicy setPinnedCertificates:[self defaultPinnedCertificates]];
+
+return securityPolicy;</pre>
+
+<p>}</p>
+<ul><li>
+<p>(id)init {</p>
+
+<pre>self = [super init];
+if (!self) {
+    return nil;
+}
+
+self.validatesCertificateChain = YES;
+self.validatesDomainName = YES;
+
+return self;</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)setPinnedCertificates:(NSArray *)pinnedCertificates {</p>
+
+<pre>_pinnedCertificates = pinnedCertificates;
+
+if (self.pinnedCertificates) {
+    NSMutableArray *mutablePinnedPublicKeys = [NSMutableArray arrayWithCapacity:[self.pinnedCertificates count]];
+    for (NSData *certificate in self.pinnedCertificates) {
+        id publicKey = AFPublicKeyForCertificate(certificate);
+        if (!publicKey) {
+            continue;
+        }
+        [mutablePinnedPublicKeys addObject:publicKey];
+    }
+    self.pinnedPublicKeys = [NSArray arrayWithArray:mutablePinnedPublicKeys];
+} else {
+    self.pinnedPublicKeys = nil;
+}</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark -</p>
+<ul><li>
+<p>(BOOL)evaluateServerTrust:(SecTrustRef)serverTrust {</p>
+
+<pre>return [self evaluateServerTrust:serverTrust forDomain:nil];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(BOOL)evaluateServerTrust:(SecTrustRef)serverTrust</p>
+
+<pre>forDomain:(NSString *)domain</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>NSMutableArray *policies = [NSMutableArray array];
+if (self.validatesDomainName) {
+    [policies addObject:(__bridge_transfer id)SecPolicyCreateSSL(true, (__bridge CFStringRef)domain)];
+} else {
+    [policies addObject:(__bridge_transfer id)SecPolicyCreateBasicX509()];
+}
+
+SecTrustSetPolicies(serverTrust, (__bridge CFArrayRef)policies);
+
+if (self.SSLPinningMode == AFSSLPinningModeNone) {
+    if (self.allowInvalidCertificates || AFServerTrustIsValid(serverTrust)){
+        return YES;
+    } else {
+        return NO;
+    }
+} else if (!AFServerTrustIsValid(serverTrust) &amp;&amp; !self.allowInvalidCertificates) {
+    return NO;
+}
+
+NSArray *serverCertificates = AFCertificateTrustChainForServerTrust(serverTrust);
+switch (self.SSLPinningMode) {
+    case AFSSLPinningModeNone:
+    default:
+        return NO;
+    case AFSSLPinningModeCertificate: {
+        NSMutableArray *pinnedCertificates = [NSMutableArray array];
+        for (NSData *certificateData in self.pinnedCertificates) {
+            [pinnedCertificates addObject:(__bridge_transfer id)SecCertificateCreateWithData(NULL, (__bridge CFDataRef)certificateData)];
+        }
+        SecTrustSetAnchorCertificates(serverTrust, (__bridge CFArrayRef)pinnedCertificates);
+
+        if (!AFServerTrustIsValid(serverTrust)) {
+            return NO;
+        }
+
+        if (!self.validatesCertificateChain) {
+            return YES;
+        }
+
+        NSUInteger trustedCertificateCount = 0;
+        for (NSData *trustChainCertificate in serverCertificates) {
+            if ([self.pinnedCertificates containsObject:trustChainCertificate]) {
+                trustedCertificateCount++;
+            }
+        }
+
+        return trustedCertificateCount == [serverCertificates count];
+    }
+    case AFSSLPinningModePublicKey: {
+        NSUInteger trustedPublicKeyCount = 0;
+        NSArray *publicKeys = AFPublicKeyTrustChainForServerTrust(serverTrust);
+        if (!self.validatesCertificateChain &amp;&amp; [publicKeys count] &gt; 0) {
+            publicKeys = @[[publicKeys firstObject]];
+        }
+
+        for (id trustChainPublicKey in publicKeys) {
+            for (id pinnedPublicKey in self.pinnedPublicKeys) {
+                if (AFSecKeyIsEqualToKey((__bridge SecKeyRef)trustChainPublicKey, (__bridge SecKeyRef)pinnedPublicKey)) {
+                    trustedPublicKeyCount += 1;
+                }
+            }
+        }
+
+        return trustedPublicKeyCount &gt; 0 &amp;&amp; ((self.validatesCertificateChain &amp;&amp; trustedPublicKeyCount == [serverCertificates count]) || (!self.validatesCertificateChain &amp;&amp; trustedPublicKeyCount &gt;= 1));
+    }
+}
+
+return NO;</pre>
+
+<p>}</p>
+
+<p>pragma mark - NSKeyValueObserving</p>
+
+<p>+ (NSSet *)keyPathsForValuesAffectingPinnedPublicKeys {</p>
+
+<pre>return [NSSet setWithObject:@&quot;pinnedCertificates&quot;];</pre>
+
+<p>}</p>
+
+<p>@end</p>
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://docs.seattlerb.org/rdoc/">RDoc</a> 4.2.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

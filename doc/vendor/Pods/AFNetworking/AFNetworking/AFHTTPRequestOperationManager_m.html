@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>AFHTTPRequestOperationManager.m - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../../../../";
+</script>
+
+<script src="../../../../js/jquery.js"></script>
+<script src="../../../../js/darkfish.js"></script>
+
+<link href="../../../../css/fonts.css" rel="stylesheet">
+<link href="../../../../css/rdoc.css" rel="stylesheet">
+
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../../../../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../../../../table_of_contents.html#pages">Pages</a>
+    <a href="../../../../table_of_contents.html#classes">Classes</a>
+    <a href="../../../../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="project-metadata">
+    <div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../../../../Gemfile.html">Gemfile</a>
+  
+    <li><a href="../../../../Gemfile_lock.html">Gemfile.lock</a>
+  
+    <li><a href="../../../../Rakefile.html">Rakefile</a>
+  
+    <li><a href="../../../../app/controllers/main_view_controller_txt.html">main_view_controller</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_app/PkgInfo.html">PkgInfo</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_app/SintjansGemeenteApp_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_spec_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_spec_app/PkgInfo.html">PkgInfo</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_spec_app/SintjansGemeenteApp_spec_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/objs/init_mm.html">init.mm</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/objs/main_mm.html">main.mm</a>
+  
+    <li><a href="../../../../design/class structure.html">class structure</a>
+  
+    <li><a href="../../../../ib_xcodeproj/Stubs_m.html">Stubs.m</a>
+  
+    <li><a href="../../../../ib_xcodeproj/project_pbxproj.html">project.pbxproj</a>
+  
+    <li><a href="../../../../ib_xcodeproj/project_xcworkspace/contents_xcworkspacedata.html">contents.xcworkspacedata</a>
+  
+    <li><a href="../../../../ib_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/ib_xcscheme.html">ib.xcscheme</a>
+  
+    <li><a href="../../../../ib_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/xcschememanagement_plist.html">xcschememanagement.plist</a>
+  
+    <li><a href="../../../../requirements/product backlog.html">product backlog</a>
+  
+    <li><a href="../../../../resources/Main_storyboard.html">Main.storyboard</a>
+  
+    <li><a href="../../../../vendor/Podfile_lock.html">Podfile.lock</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation_m.html">AFHTTPRequestOperation.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager_m.html">AFHTTPRequestOperationManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager_m.html">AFHTTPSessionManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager_m.html">AFNetworkReachabilityManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFSecurityPolicy_m.html">AFSecurityPolicy.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation_m.html">AFURLConnectionOperation.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization_m.html">AFURLRequestSerialization.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization_m.html">AFURLResponseSerialization.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLSessionManager_m.html">AFURLSessionManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/LICENSE.html">LICENSE</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/README_md.html">README</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager_m.html">AFNetworkActivityIndicatorManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking_m.html">UIActivityIndicatorView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking_m.html">UIAlertView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking_m.html">UIButton+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking_m.html">UIImageView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking_m.html">UIProgressView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking_m.html">UIRefreshControl+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking_m.html">UIWebView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/Manifest_lock.html">Manifest.lock</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/project_pbxproj.html">project.pbxproj</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/Pods-AFNetworking_xcscheme.html">Pods-AFNetworking.xcscheme</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/Pods_xcscheme.html">Pods.xcscheme</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/xcschememanagement_plist.html">xcschememanagement.plist</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking-Private_xcconfig.html">Pods-AFNetworking-Private.xcconfig</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking-dummy_m.html">Pods-AFNetworking-dummy.m</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking-prefix_pch.html">Pods-AFNetworking-prefix.pch</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking_xcconfig.html">Pods-AFNetworking.xcconfig</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-acknowledgements_markdown.html">Pods-acknowledgements.markdown</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-acknowledgements_plist.html">Pods-acknowledgements.plist</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-dummy_m.html">Pods-dummy.m</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-resources_sh.html">Pods-resources.sh</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods_debug_xcconfig.html">Pods.debug.xcconfig</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods_release_xcconfig.html">Pods.release.xcconfig</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFHTTPRequestOperation_d.html">AFHTTPRequestOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFHTTPRequestOperationManager_d.html">AFHTTPRequestOperationManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFHTTPSessionManager_d.html">AFHTTPSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFNetworkActivityIndicatorManager_d.html">AFNetworkActivityIndicatorManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFNetworkReachabilityManager_d.html">AFNetworkReachabilityManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFSecurityPolicy_d.html">AFSecurityPolicy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLConnectionOperation_d.html">AFURLConnectionOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLRequestSerialization_d.html">AFURLRequestSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLResponseSerialization_d.html">AFURLResponseSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLSessionManager_d.html">AFURLSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/Pods-AFNetworking-dummy_d.html">Pods-AFNetworking-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/Pods-AFNetworking_LinkFileList.html">Pods-AFNetworking.LinkFileList</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIActivityIndicatorView+AFNetworking_d.html">UIActivityIndicatorView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIAlertView+AFNetworking_d.html">UIAlertView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIButton+AFNetworking_d.html">UIButton+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIImageView+AFNetworking_d.html">UIImageView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIProgressView+AFNetworking_d.html">UIProgressView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIRefreshControl+AFNetworking_d.html">UIRefreshControl+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIWebView+AFNetworking_d.html">UIWebView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFHTTPRequestOperation_d.html">AFHTTPRequestOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFHTTPRequestOperationManager_d.html">AFHTTPRequestOperationManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFHTTPSessionManager_d.html">AFHTTPSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager_d.html">AFNetworkActivityIndicatorManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFNetworkReachabilityManager_d.html">AFNetworkReachabilityManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFSecurityPolicy_d.html">AFSecurityPolicy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLConnectionOperation_d.html">AFURLConnectionOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLRequestSerialization_d.html">AFURLRequestSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLResponseSerialization_d.html">AFURLResponseSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLSessionManager_d.html">AFURLSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/Pods-AFNetworking-dummy_d.html">Pods-AFNetworking-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/Pods-AFNetworking_LinkFileList.html">Pods-AFNetworking.LinkFileList</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIActivityIndicatorView+AFNetworking_d.html">UIActivityIndicatorView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIAlertView+AFNetworking_d.html">UIAlertView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIButton+AFNetworking_d.html">UIButton+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIImageView+AFNetworking_d.html">UIImageView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIProgressView+AFNetworking_d.html">UIProgressView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIRefreshControl+AFNetworking_d.html">UIRefreshControl+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIWebView+AFNetworking_d.html">UIWebView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/i386/Pods-dummy_d.html">Pods-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/i386/Pods_LinkFileList.html">Pods.LinkFileList</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/x86_64/Pods-dummy_d.html">Pods-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/x86_64/Pods_LinkFileList.html">Pods.LinkFileList</a>
+  
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m">
+
+<p>// AFHTTPRequestOperationManager.m // Copyright © 2011–2015 Alamofire
+Software Foundation (<a href="http://alamofire.org">alamofire.org</a>/) //
+// Permission is hereby granted, free of charge, to any person obtaining a
+copy // of this software and associated documentation files (the
+“Software”), to deal // in the Software without restriction, including
+without limitation the rights // to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell // copies of the Software, and to
+permit persons to whom the Software is // furnished to do so, subject to
+the following conditions: // // The above copyright notice and this
+permission notice shall be included in // all copies or substantial
+portions of the Software. // // THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT
+WARRANTY OF ANY KIND, EXPRESS OR // IMPLIED, INCLUDING BUT NOT LIMITED TO
+THE WARRANTIES OF MERCHANTABILITY, // FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE // AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER // LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, // OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN // THE SOFTWARE.</p>
+
+<p>import &lt;Foundation/Foundation.h&gt;</p>
+
+<p>import “AFHTTPRequestOperationManager.h” import “AFHTTPRequestOperation.h”</p>
+
+<p>import &lt;Availability.h&gt; import &lt;Security/Security.h&gt;</p>
+
+<p>if defined(__IPHONE_OS_VERSION_MIN_REQUIRED) import &lt;UIKit/UIKit.h&gt;
+endif</p>
+
+<p>@interface AFHTTPRequestOperationManager () @property (readwrite,
+nonatomic, strong) NSURL *baseURL; @end</p>
+
+<p>@implementation AFHTTPRequestOperationManager</p>
+
+<p>+ (instancetype)manager {</p>
+
+<pre>return [[self alloc] initWithBaseURL:nil];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(instancetype)init {</p>
+
+<pre>return [self initWithBaseURL:nil];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(instancetype)initWithBaseURL:(NSURL *)url {</p>
+
+<pre>self = [super init];
+if (!self) {
+    return nil;
+}
+
+// Ensure terminal slash for baseURL path, so that NSURL +URLWithString:relativeToURL: works as expected
+if ([[url path] length] &gt; 0 &amp;&amp; ![[url absoluteString] hasSuffix:@&quot;/&quot;]) {
+    url = [url URLByAppendingPathComponent:@&quot;&quot;];
+}
+
+self.baseURL = url;
+
+self.requestSerializer = [AFHTTPRequestSerializer serializer];
+self.responseSerializer = [AFJSONResponseSerializer serializer];
+
+self.securityPolicy = [AFSecurityPolicy defaultPolicy];
+
+self.reachabilityManager = [AFNetworkReachabilityManager sharedManager];
+
+self.operationQueue = [[NSOperationQueue alloc] init];
+
+self.shouldUseCredentialStorage = YES;
+
+return self;</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark -</p>
+
+<p>ifdef _SYSTEMCONFIGURATION_H endif</p>
+<ul><li>
+<p>(void)setRequestSerializer:(AFHTTPRequestSerializer
+&lt;AFURLRequestSerialization&gt; *)requestSerializer {</p>
+
+<pre class="ruby"><span class="ruby-constant">NSParameterAssert</span>(<span class="ruby-identifier">requestSerializer</span>);
+
+<span class="ruby-identifier">_requestSerializer</span> = <span class="ruby-identifier">requestSerializer</span>;
+</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)setResponseSerializer:(AFHTTPResponseSerializer
+&lt;AFURLResponseSerialization&gt; *)responseSerializer {</p>
+
+<pre class="ruby"><span class="ruby-constant">NSParameterAssert</span>(<span class="ruby-identifier">responseSerializer</span>);
+
+<span class="ruby-identifier">_responseSerializer</span> = <span class="ruby-identifier">responseSerializer</span>;
+</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark -</p>
+<ul><li>
+<p>(AFHTTPRequestOperation *)HTTPRequestOperationWithHTTPMethod:(NSString
+*)method</p>
+
+<pre> URLString:(NSString *)URLString
+parameters:(id)parameters
+   success:(void (^)(AFHTTPRequestOperation *operation, id responseObject))success
+   failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>NSError *serializationError = nil;
+NSMutableURLRequest *request = [self.requestSerializer requestWithMethod:method URLString:[[NSURL URLWithString:URLString relativeToURL:self.baseURL] absoluteString] parameters:parameters error:&amp;serializationError];
+if (serializationError) {
+    if (failure) {</pre>
+
+<p>pragma clang diagnostic push pragma clang diagnostic ignored “-Wgnu”</p>
+
+<pre>dispatch_async(self.completionQueue ?: dispatch_get_main_queue(), ^{
+    failure(nil, serializationError);
+});</pre>
+
+<p>pragma clang diagnostic pop</p>
+
+<pre>    }
+
+    return nil;
+}
+
+return [self HTTPRequestOperationWithRequest:request success:success failure:failure];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(AFHTTPRequestOperation *)HTTPRequestOperationWithRequest:(NSURLRequest
+*)request</p>
+
+<pre>success:(void (^)(AFHTTPRequestOperation *operation, id responseObject))success
+failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
+operation.responseSerializer = self.responseSerializer;
+operation.shouldUseCredentialStorage = self.shouldUseCredentialStorage;
+operation.credential = self.credential;
+operation.securityPolicy = self.securityPolicy;
+
+[operation setCompletionBlockWithSuccess:success failure:failure];
+operation.completionQueue = self.completionQueue;
+operation.completionGroup = self.completionGroup;
+
+return operation;</pre>
+
+<p>}</p>
+
+<p>pragma mark -</p>
+<ul><li>
+<p>(AFHTTPRequestOperation *)GET:(NSString *)URLString</p>
+
+<pre>parameters:(id)parameters
+   success:(void (^)(AFHTTPRequestOperation *operation, id responseObject))success
+   failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>AFHTTPRequestOperation *operation = [self HTTPRequestOperationWithHTTPMethod:@&quot;GET&quot; URLString:URLString parameters:parameters success:success failure:failure];
+
+[self.operationQueue addOperation:operation];
+
+return operation;</pre>
+
+<p>}</p>
+<ul><li>
+<p>(AFHTTPRequestOperation *)HEAD:(NSString *)URLString</p>
+
+<pre>parameters:(id)parameters
+   success:(void (^)(AFHTTPRequestOperation *operation))success
+   failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>AFHTTPRequestOperation *operation = [self HTTPRequestOperationWithHTTPMethod:@&quot;HEAD&quot; URLString:URLString parameters:parameters success:^(AFHTTPRequestOperation *requestOperation, __unused id responseObject) {
+    if (success) {
+        success(requestOperation);
+    }
+} failure:failure];
+
+[self.operationQueue addOperation:operation];
+
+return operation;</pre>
+
+<p>}</p>
+<ul><li>
+<p>(AFHTTPRequestOperation *)POST:(NSString *)URLString</p>
+
+<pre>parameters:(id)parameters
+   success:(void (^)(AFHTTPRequestOperation *operation, id responseObject))success
+   failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>AFHTTPRequestOperation *operation = [self HTTPRequestOperationWithHTTPMethod:@&quot;POST&quot; URLString:URLString parameters:parameters success:success failure:failure];
+
+[self.operationQueue addOperation:operation];
+
+return operation;</pre>
+
+<p>}</p>
+<ul><li>
+<p>(AFHTTPRequestOperation *)POST:(NSString *)URLString</p>
+
+<pre>               parameters:(id)parameters
+constructingBodyWithBlock:(void (^)(id &lt;AFMultipartFormData&gt; formData))block
+                  success:(void (^)(AFHTTPRequestOperation *operation, id responseObject))success
+                  failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>NSError *serializationError = nil;
+NSMutableURLRequest *request = [self.requestSerializer multipartFormRequestWithMethod:@&quot;POST&quot; URLString:[[NSURL URLWithString:URLString relativeToURL:self.baseURL] absoluteString] parameters:parameters constructingBodyWithBlock:block error:&amp;serializationError];
+if (serializationError) {
+    if (failure) {</pre>
+
+<p>pragma clang diagnostic push pragma clang diagnostic ignored “-Wgnu”</p>
+
+<pre>dispatch_async(self.completionQueue ?: dispatch_get_main_queue(), ^{
+    failure(nil, serializationError);
+});</pre>
+
+<p>pragma clang diagnostic pop</p>
+
+<pre>    }
+
+    return nil;
+}
+
+AFHTTPRequestOperation *operation = [self HTTPRequestOperationWithRequest:request success:success failure:failure];
+
+[self.operationQueue addOperation:operation];
+
+return operation;</pre>
+
+<p>}</p>
+<ul><li>
+<p>(AFHTTPRequestOperation *)PUT:(NSString *)URLString</p>
+
+<pre>parameters:(id)parameters
+   success:(void (^)(AFHTTPRequestOperation *operation, id responseObject))success
+   failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>AFHTTPRequestOperation *operation = [self HTTPRequestOperationWithHTTPMethod:@&quot;PUT&quot; URLString:URLString parameters:parameters success:success failure:failure];
+
+[self.operationQueue addOperation:operation];
+
+return operation;</pre>
+
+<p>}</p>
+<ul><li>
+<p>(AFHTTPRequestOperation *)PATCH:(NSString *)URLString</p>
+
+<pre>parameters:(id)parameters
+   success:(void (^)(AFHTTPRequestOperation *operation, id responseObject))success
+   failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>AFHTTPRequestOperation *operation = [self HTTPRequestOperationWithHTTPMethod:@&quot;PATCH&quot; URLString:URLString parameters:parameters success:success failure:failure];
+
+[self.operationQueue addOperation:operation];
+
+return operation;</pre>
+
+<p>}</p>
+<ul><li>
+<p>(AFHTTPRequestOperation *)DELETE:(NSString *)URLString</p>
+
+<pre>parameters:(id)parameters
+   success:(void (^)(AFHTTPRequestOperation *operation, id responseObject))success
+   failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>AFHTTPRequestOperation *operation = [self HTTPRequestOperationWithHTTPMethod:@&quot;DELETE&quot; URLString:URLString parameters:parameters success:success failure:failure];
+
+[self.operationQueue addOperation:operation];
+
+return operation;</pre>
+
+<p>}</p>
+
+<p>pragma mark - NSObject</p>
+<ul><li>
+<p>(NSString *)description {</p>
+
+<pre>return [NSString stringWithFormat:@&quot;&lt;%@: %p, baseURL: %@, operationQueue: %@&gt;&quot;, NSStringFromClass([self class]), self, [self.baseURL absoluteString], self.operationQueue];</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark - NSSecureCoding</p>
+
+<p>+ (BOOL)supportsSecureCoding {</p>
+
+<pre class="ruby"><span class="ruby-keyword">return</span> <span class="ruby-constant">YES</span>;
+</pre>
+
+<p>}</p>
+<ul><li>
+<p>(id)initWithCoder:(NSCoder *)decoder {</p>
+
+<pre>NSURL *baseURL = [decoder decodeObjectForKey:NSStringFromSelector(@selector(baseURL))];
+
+self = [self initWithBaseURL:baseURL];
+if (!self) {
+    return nil;
+}
+
+self.requestSerializer = [decoder decodeObjectOfClass:[AFHTTPRequestSerializer class] forKey:NSStringFromSelector(@selector(requestSerializer))];
+self.responseSerializer = [decoder decodeObjectOfClass:[AFHTTPResponseSerializer class] forKey:NSStringFromSelector(@selector(responseSerializer))];
+
+return self;</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)encodeWithCoder:(NSCoder *)coder {</p>
+
+<pre>[coder encodeObject:self.baseURL forKey:NSStringFromSelector(@selector(baseURL))];
+[coder encodeObject:self.requestSerializer forKey:NSStringFromSelector(@selector(requestSerializer))];
+[coder encodeObject:self.responseSerializer forKey:NSStringFromSelector(@selector(responseSerializer))];</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark - NSCopying</p>
+<ul><li>
+<p>(id)copyWithZone:(NSZone *)zone {</p>
+
+<pre>AFHTTPRequestOperationManager *HTTPClient = [[[self class] allocWithZone:zone] initWithBaseURL:self.baseURL];
+
+HTTPClient.requestSerializer = [self.requestSerializer copyWithZone:zone];
+HTTPClient.responseSerializer = [self.responseSerializer copyWithZone:zone];
+
+return HTTPClient;</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>@end</p>
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://docs.seattlerb.org/rdoc/">RDoc</a> 4.2.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

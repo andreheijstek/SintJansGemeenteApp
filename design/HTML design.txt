@@ -1,0 +1,31 @@
+De app leest de inhoud van de zondagsbrief van een website en plaatst die in een iPhone app.
+
+Website (zondagsbrief.nl / sintjan.gouda.zondagsbrief.nl / etc.)
+    Formulier om de tekst op te maken
+        Voorkant
+            sectie1
+            sectie2
+            etc.
+        Achterkant
+            ochtenddienst
+                liturgie
+                gezangen
+            middagdienst
+                idem
+
+    Buttons: publish_to_app, publish_to_Word/PDF
+
+De publish_to_app button creert een zo clean mogelijke HTML site (of een JSON site),
+die gemakkelijk te lezen is door de App.
+De App is kritisch qua performance, dus daar moet het werk zo gemakkelijk mogelijk zijn.
+De Website kan het zware werk doen (voor zover er al sprake is van zwaar werk).
+
+Later:
+- inloggen als technisch beheerder
+    - subsites aanmaken voor nieuwe gemeentes (CRUD)
+    - functioneel beheerders aanmaken voor nieuwe/bestaande gemeentes (CRUD)
+- inloggen als functioneel beheerder
+    - zondagsbrief aanmaken
+    - zondagsbrief publiceren
+        - meteen
+        - op een datum/tijd

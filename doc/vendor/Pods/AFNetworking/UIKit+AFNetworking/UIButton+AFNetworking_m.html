@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>UIButton+AFNetworking.m - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../../../../";
+</script>
+
+<script src="../../../../js/jquery.js"></script>
+<script src="../../../../js/darkfish.js"></script>
+
+<link href="../../../../css/fonts.css" rel="stylesheet">
+<link href="../../../../css/rdoc.css" rel="stylesheet">
+
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../../../../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../../../../table_of_contents.html#pages">Pages</a>
+    <a href="../../../../table_of_contents.html#classes">Classes</a>
+    <a href="../../../../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="project-metadata">
+    <div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../../../../Gemfile.html">Gemfile</a>
+  
+    <li><a href="../../../../Gemfile_lock.html">Gemfile.lock</a>
+  
+    <li><a href="../../../../Rakefile.html">Rakefile</a>
+  
+    <li><a href="../../../../app/controllers/main_view_controller_txt.html">main_view_controller</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_app/PkgInfo.html">PkgInfo</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_app/SintjansGemeenteApp_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_spec_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_spec_app/PkgInfo.html">PkgInfo</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_spec_app/SintjansGemeenteApp_spec_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/objs/init_mm.html">init.mm</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/objs/main_mm.html">main.mm</a>
+  
+    <li><a href="../../../../design/class structure.html">class structure</a>
+  
+    <li><a href="../../../../ib_xcodeproj/Stubs_m.html">Stubs.m</a>
+  
+    <li><a href="../../../../ib_xcodeproj/project_pbxproj.html">project.pbxproj</a>
+  
+    <li><a href="../../../../ib_xcodeproj/project_xcworkspace/contents_xcworkspacedata.html">contents.xcworkspacedata</a>
+  
+    <li><a href="../../../../ib_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/ib_xcscheme.html">ib.xcscheme</a>
+  
+    <li><a href="../../../../ib_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/xcschememanagement_plist.html">xcschememanagement.plist</a>
+  
+    <li><a href="../../../../requirements/product backlog.html">product backlog</a>
+  
+    <li><a href="../../../../resources/Main_storyboard.html">Main.storyboard</a>
+  
+    <li><a href="../../../../vendor/Podfile_lock.html">Podfile.lock</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation_m.html">AFHTTPRequestOperation.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager_m.html">AFHTTPRequestOperationManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager_m.html">AFHTTPSessionManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager_m.html">AFNetworkReachabilityManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFSecurityPolicy_m.html">AFSecurityPolicy.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation_m.html">AFURLConnectionOperation.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization_m.html">AFURLRequestSerialization.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization_m.html">AFURLResponseSerialization.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLSessionManager_m.html">AFURLSessionManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/LICENSE.html">LICENSE</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/README_md.html">README</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager_m.html">AFNetworkActivityIndicatorManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking_m.html">UIActivityIndicatorView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking_m.html">UIAlertView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking_m.html">UIButton+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking_m.html">UIImageView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking_m.html">UIProgressView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking_m.html">UIRefreshControl+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking_m.html">UIWebView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/Manifest_lock.html">Manifest.lock</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/project_pbxproj.html">project.pbxproj</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/Pods-AFNetworking_xcscheme.html">Pods-AFNetworking.xcscheme</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/Pods_xcscheme.html">Pods.xcscheme</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/xcschememanagement_plist.html">xcschememanagement.plist</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking-Private_xcconfig.html">Pods-AFNetworking-Private.xcconfig</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking-dummy_m.html">Pods-AFNetworking-dummy.m</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking-prefix_pch.html">Pods-AFNetworking-prefix.pch</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking_xcconfig.html">Pods-AFNetworking.xcconfig</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-acknowledgements_markdown.html">Pods-acknowledgements.markdown</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-acknowledgements_plist.html">Pods-acknowledgements.plist</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-dummy_m.html">Pods-dummy.m</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-resources_sh.html">Pods-resources.sh</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods_debug_xcconfig.html">Pods.debug.xcconfig</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods_release_xcconfig.html">Pods.release.xcconfig</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFHTTPRequestOperation_d.html">AFHTTPRequestOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFHTTPRequestOperationManager_d.html">AFHTTPRequestOperationManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFHTTPSessionManager_d.html">AFHTTPSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFNetworkActivityIndicatorManager_d.html">AFNetworkActivityIndicatorManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFNetworkReachabilityManager_d.html">AFNetworkReachabilityManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFSecurityPolicy_d.html">AFSecurityPolicy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLConnectionOperation_d.html">AFURLConnectionOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLRequestSerialization_d.html">AFURLRequestSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLResponseSerialization_d.html">AFURLResponseSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLSessionManager_d.html">AFURLSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/Pods-AFNetworking-dummy_d.html">Pods-AFNetworking-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/Pods-AFNetworking_LinkFileList.html">Pods-AFNetworking.LinkFileList</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIActivityIndicatorView+AFNetworking_d.html">UIActivityIndicatorView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIAlertView+AFNetworking_d.html">UIAlertView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIButton+AFNetworking_d.html">UIButton+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIImageView+AFNetworking_d.html">UIImageView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIProgressView+AFNetworking_d.html">UIProgressView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIRefreshControl+AFNetworking_d.html">UIRefreshControl+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIWebView+AFNetworking_d.html">UIWebView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFHTTPRequestOperation_d.html">AFHTTPRequestOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFHTTPRequestOperationManager_d.html">AFHTTPRequestOperationManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFHTTPSessionManager_d.html">AFHTTPSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager_d.html">AFNetworkActivityIndicatorManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFNetworkReachabilityManager_d.html">AFNetworkReachabilityManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFSecurityPolicy_d.html">AFSecurityPolicy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLConnectionOperation_d.html">AFURLConnectionOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLRequestSerialization_d.html">AFURLRequestSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLResponseSerialization_d.html">AFURLResponseSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLSessionManager_d.html">AFURLSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/Pods-AFNetworking-dummy_d.html">Pods-AFNetworking-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/Pods-AFNetworking_LinkFileList.html">Pods-AFNetworking.LinkFileList</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIActivityIndicatorView+AFNetworking_d.html">UIActivityIndicatorView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIAlertView+AFNetworking_d.html">UIAlertView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIButton+AFNetworking_d.html">UIButton+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIImageView+AFNetworking_d.html">UIImageView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIProgressView+AFNetworking_d.html">UIProgressView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIRefreshControl+AFNetworking_d.html">UIRefreshControl+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIWebView+AFNetworking_d.html">UIWebView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/i386/Pods-dummy_d.html">Pods-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/i386/Pods_LinkFileList.html">Pods.LinkFileList</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/x86_64/Pods-dummy_d.html">Pods-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/x86_64/Pods_LinkFileList.html">Pods.LinkFileList</a>
+  
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page vendor/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m">
+
+<p>// UIButton+AFNetworking.m // Copyright © 2011–2015 Alamofire Software
+Foundation (<a href="http://alamofire.org">alamofire.org</a>/) // //
+Permission is hereby granted, free of charge, to any person obtaining a
+copy // of this software and associated documentation files (the
+“Software”), to deal // in the Software without restriction, including
+without limitation the rights // to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell // copies of the Software, and to
+permit persons to whom the Software is // furnished to do so, subject to
+the following conditions: // // The above copyright notice and this
+permission notice shall be included in // all copies or substantial
+portions of the Software. // // THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT
+WARRANTY OF ANY KIND, EXPRESS OR // IMPLIED, INCLUDING BUT NOT LIMITED TO
+THE WARRANTIES OF MERCHANTABILITY, // FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE // AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER // LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, // OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN // THE SOFTWARE.</p>
+
+<p>import “UIButton+AFNetworking.h”</p>
+
+<p>import &lt;objc/runtime.h&gt;</p>
+
+<p>if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)</p>
+
+<p>import “AFURLResponseSerialization.h” import “AFHTTPRequestOperation.h”</p>
+
+<p>import “UIImageView+AFNetworking.h”</p>
+
+<p>@interface UIButton (_AFNetworking) @end</p>
+
+<p>@implementation UIButton (_AFNetworking)</p>
+
+<p>+ (NSOperationQueue *)af_sharedImageRequestOperationQueue {</p>
+
+<pre>static NSOperationQueue *_af_sharedImageRequestOperationQueue = nil;
+static dispatch_once_t onceToken;
+dispatch_once(&amp;onceToken, ^{
+    _af_sharedImageRequestOperationQueue = [[NSOperationQueue alloc] init];
+    _af_sharedImageRequestOperationQueue.maxConcurrentOperationCount = NSOperationQueueDefaultMaxConcurrentOperationCount;
+});
+
+return _af_sharedImageRequestOperationQueue;</pre>
+
+<p>}</p>
+
+<p>pragma mark -</p>
+
+<p>static char AFImageRequestOperationNormal; static char
+AFImageRequestOperationHighlighted; static char
+AFImageRequestOperationSelected; static char
+AFImageRequestOperationDisabled;</p>
+
+<p>static const char * af_imageRequestOperationKeyForState(UIControlState
+state) {</p>
+
+<pre>switch (state) {
+    case UIControlStateHighlighted:
+        return &amp;AFImageRequestOperationHighlighted;
+    case UIControlStateSelected:
+        return &amp;AFImageRequestOperationSelected;
+    case UIControlStateDisabled:
+        return &amp;AFImageRequestOperationDisabled;
+    case UIControlStateNormal:
+    default:
+        return &amp;AFImageRequestOperationNormal;
+}</pre>
+
+<p>}</p>
+<ul><li>
+<p>(AFHTTPRequestOperation
+*)af_imageRequestOperationForState:(UIControlState)state {</p>
+
+<pre>return (AFHTTPRequestOperation *)objc_getAssociatedObject(self, af_imageRequestOperationKeyForState(state));</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)af_setImageRequestOperation:(AFHTTPRequestOperation
+*)imageRequestOperation</p>
+
+<pre>forState:(UIControlState)state</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre class="ruby"><span class="ruby-identifier">objc_setAssociatedObject</span>(<span class="ruby-keyword">self</span>, <span class="ruby-identifier">af_imageRequestOperationKeyForState</span>(<span class="ruby-identifier">state</span>), <span class="ruby-identifier">imageRequestOperation</span>, <span class="ruby-constant">OBJC_ASSOCIATION_RETAIN_NONATOMIC</span>);
+</pre>
+
+<p>}</p>
+
+<p>pragma mark -</p>
+
+<p>static char AFBackgroundImageRequestOperationNormal; static char
+AFBackgroundImageRequestOperationHighlighted; static char
+AFBackgroundImageRequestOperationSelected; static char
+AFBackgroundImageRequestOperationDisabled;</p>
+
+<p>static const char *
+af_backgroundImageRequestOperationKeyForState(UIControlState state) {</p>
+
+<pre>switch (state) {
+    case UIControlStateHighlighted:
+        return &amp;AFBackgroundImageRequestOperationHighlighted;
+    case UIControlStateSelected:
+        return &amp;AFBackgroundImageRequestOperationSelected;
+    case UIControlStateDisabled:
+        return &amp;AFBackgroundImageRequestOperationDisabled;
+    case UIControlStateNormal:
+    default:
+        return &amp;AFBackgroundImageRequestOperationNormal;
+}</pre>
+
+<p>}</p>
+<ul><li>
+<p>(AFHTTPRequestOperation
+*)af_backgroundImageRequestOperationForState:(UIControlState)state {</p>
+
+<pre>return (AFHTTPRequestOperation *)objc_getAssociatedObject(self, af_backgroundImageRequestOperationKeyForState(state));</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)af_setBackgroundImageRequestOperation:(AFHTTPRequestOperation
+*)imageRequestOperation</p>
+
+<pre>forState:(UIControlState)state</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre class="ruby"><span class="ruby-identifier">objc_setAssociatedObject</span>(<span class="ruby-keyword">self</span>, <span class="ruby-identifier">af_backgroundImageRequestOperationKeyForState</span>(<span class="ruby-identifier">state</span>), <span class="ruby-identifier">imageRequestOperation</span>, <span class="ruby-constant">OBJC_ASSOCIATION_RETAIN_NONATOMIC</span>);
+</pre>
+
+<p>}</p>
+
+<p>@end</p>
+
+<p>pragma mark -</p>
+
+<p>@implementation UIButton (AFNetworking)</p>
+
+<p>+ (id &lt;AFImageCache&gt;)sharedImageCache { pragma clang diagnostic push
+pragma clang diagnostic ignored “-Wgnu”</p>
+
+<pre>return objc_getAssociatedObject(self, @selector(sharedImageCache)) ?: [UIImageView sharedImageCache];</pre>
+
+<p>pragma clang diagnostic pop }</p>
+
+<p>+ (void)setSharedImageCache:(id &lt;AFImageCache&gt;)imageCache {</p>
+
+<pre>objc_setAssociatedObject(self, @selector(sharedImageCache), imageCache, OBJC_ASSOCIATION_RETAIN_NONATOMIC);</pre>
+
+<p>}</p>
+
+<p>pragma mark -</p>
+<ul><li>
+<p>(id &lt;AFURLResponseSerialization&gt;)imageResponseSerializer {</p>
+
+<pre>static id &lt;AFURLResponseSerialization&gt; _af_defaultImageResponseSerializer = nil;
+static dispatch_once_t onceToken;
+dispatch_once(&amp;onceToken, ^{
+    _af_defaultImageResponseSerializer = [AFImageResponseSerializer serializer];
+});</pre>
+</li></ul>
+
+<p>pragma clang diagnostic push pragma clang diagnostic ignored “-Wgnu”</p>
+
+<pre>return objc_getAssociatedObject(self, @selector(imageResponseSerializer)) ?: _af_defaultImageResponseSerializer;</pre>
+
+<p>pragma clang diagnostic pop }</p>
+<ul><li>
+<p>(void)setImageResponseSerializer:(id
+&lt;AFURLResponseSerialization&gt;)serializer {</p>
+
+<pre>objc_setAssociatedObject(self, @selector(imageResponseSerializer), serializer, OBJC_ASSOCIATION_RETAIN_NONATOMIC);</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark -</p>
+<ul><li>
+<p>(void)setImageForState:(UIControlState)state</p>
+
+<pre>withURL:(NSURL *)url</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>[self setImageForState:state withURL:url placeholderImage:nil];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(void)setImageForState:(UIControlState)state</p>
+
+<pre>         withURL:(NSURL *)url
+placeholderImage:(UIImage *)placeholderImage</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+[request addValue:@&quot;image/*&quot; forHTTPHeaderField:@&quot;Accept&quot;];
+
+[self setImageForState:state withURLRequest:request placeholderImage:placeholderImage success:nil failure:nil];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(void)setImageForState:(UIControlState)state</p>
+
+<pre>  withURLRequest:(NSURLRequest *)urlRequest
+placeholderImage:(UIImage *)placeholderImage
+         success:(void (^)(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image))success
+         failure:(void (^)(NSError *error))failure</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>[self cancelImageRequestOperationForState:state];
+
+UIImage *cachedImage = [[[self class] sharedImageCache] cachedImageForRequest:urlRequest];
+if (cachedImage) {
+    if (success) {
+        success(nil, nil, cachedImage);
+    } else {
+        [self setImage:cachedImage forState:state];
+    }
+
+    [self af_setImageRequestOperation:nil forState:state];
+} else {
+    if (placeholderImage) {
+        [self setImage:placeholderImage forState:state];
+    }
+
+    __weak __typeof(self)weakSelf = self;
+    AFHTTPRequestOperation *imageRequestOperation = [[AFHTTPRequestOperation alloc] initWithRequest:urlRequest];
+    imageRequestOperation.responseSerializer = self.imageResponseSerializer;
+    [imageRequestOperation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+        __strong __typeof(weakSelf)strongSelf = weakSelf;
+        if ([[urlRequest URL] isEqual:[operation.request URL]]) {
+            if (success) {
+                success(operation.request, operation.response, responseObject);
+            } else if (responseObject) {
+                [strongSelf setImage:responseObject forState:state];
+            }
+        }
+        [[[strongSelf class] sharedImageCache] cacheImage:responseObject forRequest:urlRequest];
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        if ([[urlRequest URL] isEqual:[operation.request URL]]) {
+            if (failure) {
+                failure(error);
+            }
+        }
+    }];
+
+    [self af_setImageRequestOperation:imageRequestOperation forState:state];
+    [[[self class] af_sharedImageRequestOperationQueue] addOperation:imageRequestOperation];
+}</pre>
+
+<p>}</p>
+
+<p>pragma mark -</p>
+<ul><li>
+<p>(void)setBackgroundImageForState:(UIControlState)state</p>
+
+<pre>withURL:(NSURL *)url</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>[self setBackgroundImageForState:state withURL:url placeholderImage:nil];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(void)setBackgroundImageForState:(UIControlState)state</p>
+
+<pre>         withURL:(NSURL *)url
+placeholderImage:(UIImage *)placeholderImage</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+[request addValue:@&quot;image/*&quot; forHTTPHeaderField:@&quot;Accept&quot;];
+
+[self setBackgroundImageForState:state withURLRequest:request placeholderImage:placeholderImage success:nil failure:nil];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(void)setBackgroundImageForState:(UIControlState)state</p>
+
+<pre>  withURLRequest:(NSURLRequest *)urlRequest
+placeholderImage:(UIImage *)placeholderImage
+         success:(void (^)(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image))success
+         failure:(void (^)(NSError *error))failure</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>[self cancelBackgroundImageRequestOperationForState:state];
+
+UIImage *cachedImage = [[[self class] sharedImageCache] cachedImageForRequest:urlRequest];
+if (cachedImage) {
+    if (success) {
+        success(nil, nil, cachedImage);
+    } else {
+        [self setBackgroundImage:cachedImage forState:state];
+    }
+
+    [self af_setBackgroundImageRequestOperation:nil forState:state];
+} else {
+    if (placeholderImage) {
+        [self setBackgroundImage:placeholderImage forState:state];
+    }
+
+    __weak __typeof(self)weakSelf = self;
+    AFHTTPRequestOperation *backgroundImageRequestOperation = [[AFHTTPRequestOperation alloc] initWithRequest:urlRequest];
+    backgroundImageRequestOperation.responseSerializer = self.imageResponseSerializer;
+    [backgroundImageRequestOperation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+        __strong __typeof(weakSelf)strongSelf = weakSelf;
+        if ([[urlRequest URL] isEqual:[operation.request URL]]) {
+            if (success) {
+                success(operation.request, operation.response, responseObject);
+            } else if (responseObject) {
+                [strongSelf setBackgroundImage:responseObject forState:state];
+            }
+        }
+        [[[strongSelf class] sharedImageCache] cacheImage:responseObject forRequest:urlRequest];
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        if ([[urlRequest URL] isEqual:[operation.request URL]]) {
+            if (failure) {
+                failure(error);
+            }
+        }
+    }];
+
+    [self af_setBackgroundImageRequestOperation:backgroundImageRequestOperation forState:state];
+    [[[self class] af_sharedImageRequestOperationQueue] addOperation:backgroundImageRequestOperation];
+}</pre>
+
+<p>}</p>
+
+<p>pragma mark -</p>
+<ul><li>
+<p>(void)cancelImageRequestOperationForState:(UIControlState)state {</p>
+
+<pre>[[self af_imageRequestOperationForState:state] cancel];
+[self af_setImageRequestOperation:nil forState:state];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)cancelBackgroundImageRequestOperationForState:(UIControlState)state {</p>
+
+<pre>[[self af_backgroundImageRequestOperationForState:state] cancel];
+[self af_setBackgroundImageRequestOperation:nil forState:state];</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>@end</p>
+
+<p>endif</p>
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://docs.seattlerb.org/rdoc/">RDoc</a> 4.2.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

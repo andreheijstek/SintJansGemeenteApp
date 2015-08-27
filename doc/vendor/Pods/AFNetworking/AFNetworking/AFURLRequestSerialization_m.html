@@ -1,0 +1,2011 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>AFURLRequestSerialization.m - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../../../../";
+</script>
+
+<script src="../../../../js/jquery.js"></script>
+<script src="../../../../js/darkfish.js"></script>
+
+<link href="../../../../css/fonts.css" rel="stylesheet">
+<link href="../../../../css/rdoc.css" rel="stylesheet">
+
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../../../../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../../../../table_of_contents.html#pages">Pages</a>
+    <a href="../../../../table_of_contents.html#classes">Classes</a>
+    <a href="../../../../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="project-metadata">
+    <div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../../../../Gemfile.html">Gemfile</a>
+  
+    <li><a href="../../../../Gemfile_lock.html">Gemfile.lock</a>
+  
+    <li><a href="../../../../Rakefile.html">Rakefile</a>
+  
+    <li><a href="../../../../app/controllers/main_view_controller_txt.html">main_view_controller</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_app/PkgInfo.html">PkgInfo</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_app/SintjansGemeenteApp_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_spec_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_spec_app/PkgInfo.html">PkgInfo</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/SintjansGemeenteApp_spec_app/SintjansGemeenteApp_spec_app_dSYM/Contents/Info_plist.html">Info.plist</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/objs/init_mm.html">init.mm</a>
+  
+    <li><a href="../../../../build/iPhoneSimulator-8_3-Development/objs/main_mm.html">main.mm</a>
+  
+    <li><a href="../../../../design/class structure.html">class structure</a>
+  
+    <li><a href="../../../../ib_xcodeproj/Stubs_m.html">Stubs.m</a>
+  
+    <li><a href="../../../../ib_xcodeproj/project_pbxproj.html">project.pbxproj</a>
+  
+    <li><a href="../../../../ib_xcodeproj/project_xcworkspace/contents_xcworkspacedata.html">contents.xcworkspacedata</a>
+  
+    <li><a href="../../../../ib_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/ib_xcscheme.html">ib.xcscheme</a>
+  
+    <li><a href="../../../../ib_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/xcschememanagement_plist.html">xcschememanagement.plist</a>
+  
+    <li><a href="../../../../requirements/product backlog.html">product backlog</a>
+  
+    <li><a href="../../../../resources/Main_storyboard.html">Main.storyboard</a>
+  
+    <li><a href="../../../../vendor/Podfile_lock.html">Podfile.lock</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation_m.html">AFHTTPRequestOperation.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager_m.html">AFHTTPRequestOperationManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager_m.html">AFHTTPSessionManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager_m.html">AFNetworkReachabilityManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFSecurityPolicy_m.html">AFSecurityPolicy.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation_m.html">AFURLConnectionOperation.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization_m.html">AFURLRequestSerialization.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization_m.html">AFURLResponseSerialization.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/AFNetworking/AFURLSessionManager_m.html">AFURLSessionManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/LICENSE.html">LICENSE</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/README_md.html">README</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager_m.html">AFNetworkActivityIndicatorManager.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking_m.html">UIActivityIndicatorView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking_m.html">UIAlertView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking_m.html">UIButton+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking_m.html">UIImageView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking_m.html">UIProgressView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking_m.html">UIRefreshControl+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking_m.html">UIWebView+AFNetworking.m</a>
+  
+    <li><a href="../../../../vendor/Pods/Manifest_lock.html">Manifest.lock</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/project_pbxproj.html">project.pbxproj</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/Pods-AFNetworking_xcscheme.html">Pods-AFNetworking.xcscheme</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/Pods_xcscheme.html">Pods.xcscheme</a>
+  
+    <li><a href="../../../../vendor/Pods/Pods_xcodeproj/xcuserdata/andreheijstek_xcuserdatad/xcschemes/xcschememanagement_plist.html">xcschememanagement.plist</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking-Private_xcconfig.html">Pods-AFNetworking-Private.xcconfig</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking-dummy_m.html">Pods-AFNetworking-dummy.m</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking-prefix_pch.html">Pods-AFNetworking-prefix.pch</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking_xcconfig.html">Pods-AFNetworking.xcconfig</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-acknowledgements_markdown.html">Pods-acknowledgements.markdown</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-acknowledgements_plist.html">Pods-acknowledgements.plist</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-dummy_m.html">Pods-dummy.m</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods-resources_sh.html">Pods-resources.sh</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods_debug_xcconfig.html">Pods.debug.xcconfig</a>
+  
+    <li><a href="../../../../vendor/Pods/Target Support Files/Pods/Pods_release_xcconfig.html">Pods.release.xcconfig</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFHTTPRequestOperation_d.html">AFHTTPRequestOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFHTTPRequestOperationManager_d.html">AFHTTPRequestOperationManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFHTTPSessionManager_d.html">AFHTTPSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFNetworkActivityIndicatorManager_d.html">AFNetworkActivityIndicatorManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFNetworkReachabilityManager_d.html">AFNetworkReachabilityManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFSecurityPolicy_d.html">AFSecurityPolicy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLConnectionOperation_d.html">AFURLConnectionOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLRequestSerialization_d.html">AFURLRequestSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLResponseSerialization_d.html">AFURLResponseSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/AFURLSessionManager_d.html">AFURLSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/Pods-AFNetworking-dummy_d.html">Pods-AFNetworking-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/Pods-AFNetworking_LinkFileList.html">Pods-AFNetworking.LinkFileList</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIActivityIndicatorView+AFNetworking_d.html">UIActivityIndicatorView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIAlertView+AFNetworking_d.html">UIAlertView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIButton+AFNetworking_d.html">UIButton+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIImageView+AFNetworking_d.html">UIImageView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIProgressView+AFNetworking_d.html">UIProgressView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIRefreshControl+AFNetworking_d.html">UIRefreshControl+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/i386/UIWebView+AFNetworking_d.html">UIWebView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFHTTPRequestOperation_d.html">AFHTTPRequestOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFHTTPRequestOperationManager_d.html">AFHTTPRequestOperationManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFHTTPSessionManager_d.html">AFHTTPSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFNetworkActivityIndicatorManager_d.html">AFNetworkActivityIndicatorManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFNetworkReachabilityManager_d.html">AFNetworkReachabilityManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFSecurityPolicy_d.html">AFSecurityPolicy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLConnectionOperation_d.html">AFURLConnectionOperation.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLRequestSerialization_d.html">AFURLRequestSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLResponseSerialization_d.html">AFURLResponseSerialization.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/AFURLSessionManager_d.html">AFURLSessionManager.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/Pods-AFNetworking-dummy_d.html">Pods-AFNetworking-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/Pods-AFNetworking_LinkFileList.html">Pods-AFNetworking.LinkFileList</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIActivityIndicatorView+AFNetworking_d.html">UIActivityIndicatorView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIAlertView+AFNetworking_d.html">UIAlertView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIButton+AFNetworking_d.html">UIButton+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIImageView+AFNetworking_d.html">UIImageView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIProgressView+AFNetworking_d.html">UIProgressView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIRefreshControl+AFNetworking_d.html">UIRefreshControl+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods-AFNetworking_build/Objects-normal/x86_64/UIWebView+AFNetworking_d.html">UIWebView+AFNetworking.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/i386/Pods-dummy_d.html">Pods-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/i386/Pods_LinkFileList.html">Pods.LinkFileList</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/x86_64/Pods-dummy_d.html">Pods-dummy.d</a>
+  
+    <li><a href="../../../../vendor/build/Pods_build/Release-iphonesimulator/Pods_build/Objects-normal/x86_64/Pods_LinkFileList.html">Pods.LinkFileList</a>
+  
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page vendor/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m">
+
+<p>// AFURLRequestSerialization.m // Copyright © 2011–2015 Alamofire Software
+Foundation (<a href="http://alamofire.org">alamofire.org</a>/) // //
+Permission is hereby granted, free of charge, to any person obtaining a
+copy // of this software and associated documentation files (the
+“Software”), to deal // in the Software without restriction, including
+without limitation the rights // to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell // copies of the Software, and to
+permit persons to whom the Software is // furnished to do so, subject to
+the following conditions: // // The above copyright notice and this
+permission notice shall be included in // all copies or substantial
+portions of the Software. // // THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT
+WARRANTY OF ANY KIND, EXPRESS OR // IMPLIED, INCLUDING BUT NOT LIMITED TO
+THE WARRANTIES OF MERCHANTABILITY, // FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE // AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER // LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, // OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN // THE SOFTWARE.</p>
+
+<p>import “AFURLRequestSerialization.h”</p>
+
+<p>if __IPHONE_OS_VERSION_MIN_REQUIRED import
+&lt;MobileCoreServices/MobileCoreServices.h&gt; else import
+&lt;CoreServices/CoreServices.h&gt; endif</p>
+
+<p>NSString * const AFURLRequestSerializationErrorDomain =
+@“com.alamofire.error.serialization.request”; NSString * const
+AFNetworkingOperationFailingURLRequestErrorKey =
+@“com.alamofire.serialization.request.error.response”;</p>
+
+<p>typedef NSString * (^AFQueryStringSerializationBlock)(NSURLRequest
+*request, id parameters, NSError *__autoreleasing *error);</p>
+
+<p>static NSString * AFBase64EncodedStringFromString(NSString *string) {</p>
+
+<pre>NSData *data = [NSData dataWithBytes:[string UTF8String] length:[string lengthOfBytesUsingEncoding:NSUTF8StringEncoding]];
+NSUInteger length = [data length];
+NSMutableData *mutableData = [NSMutableData dataWithLength:((length + 2) / 3) * 4];
+
+uint8_t *input = (uint8_t *)[data bytes];
+uint8_t *output = (uint8_t *)[mutableData mutableBytes];
+
+for (NSUInteger i = 0; i &lt; length; i += 3) {
+    NSUInteger value = 0;
+    for (NSUInteger j = i; j &lt; (i + 3); j++) {
+        value &lt;&lt;= 8;
+        if (j &lt; length) {
+            value |= (0xFF &amp; input[j]);
+        }
+    }
+
+    static uint8_t const kAFBase64EncodingTable[] = &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/&quot;;
+
+    NSUInteger idx = (i / 3) * 4;
+    output[idx + 0] = kAFBase64EncodingTable[(value &gt;&gt; 18) &amp; 0x3F];
+    output[idx + 1] = kAFBase64EncodingTable[(value &gt;&gt; 12) &amp; 0x3F];
+    output[idx + 2] = (i + 1) &lt; length ? kAFBase64EncodingTable[(value &gt;&gt; 6)  &amp; 0x3F] : &#39;=&#39;;
+    output[idx + 3] = (i + 2) &lt; length ? kAFBase64EncodingTable[(value &gt;&gt; 0)  &amp; 0x3F] : &#39;=&#39;;
+}
+
+return [[NSString alloc] initWithData:mutableData encoding:NSASCIIStringEncoding];</pre>
+
+<p>}</p>
+
+<p>static NSString * const kAFCharactersToBeEscapedInQueryString =
+@“:/?&amp;=;+!@#$()&#39;,*”;</p>
+
+<p>static NSString *
+AFPercentEscapedQueryStringKeyFromStringWithEncoding(NSString *string,
+NSStringEncoding encoding) {</p>
+
+<pre>static NSString * const kAFCharactersToLeaveUnescapedInQueryStringPairKey = @&quot;[].&quot;;
+
+    return (__bridge_transfer  NSString *)CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault, (__bridge CFStringRef)string, (__bridge CFStringRef)kAFCharactersToLeaveUnescapedInQueryStringPairKey, (__bridge CFStringRef)kAFCharactersToBeEscapedInQueryString, CFStringConvertNSStringEncodingToEncoding(encoding));</pre>
+
+<p>}</p>
+
+<p>static NSString *
+AFPercentEscapedQueryStringValueFromStringWithEncoding(NSString *string,
+NSStringEncoding encoding) {</p>
+
+<pre>return (__bridge_transfer  NSString *)CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault, (__bridge CFStringRef)string, NULL, (__bridge CFStringRef)kAFCharactersToBeEscapedInQueryString, CFStringConvertNSStringEncodingToEncoding(encoding));</pre>
+
+<p>}</p>
+
+<p>pragma mark -</p>
+
+<p>@interface AFQueryStringPair : NSObject @property (readwrite, nonatomic,
+strong) id field; @property (readwrite, nonatomic, strong) id value;</p>
+<ul><li>
+<p>(id)initWithField:(id)field value:(id)value;</p>
+</li><li>
+<p>(NSString
+*)URLEncodedStringValueWithEncoding:(NSStringEncoding)stringEncoding;</p>
+</li></ul>
+
+<p>@end</p>
+
+<p>@implementation AFQueryStringPair</p>
+<ul><li>
+<p>(id)initWithField:(id)field value:(id)value {</p>
+
+<pre>self = [super init];
+if (!self) {
+    return nil;
+}
+
+self.field = field;
+self.value = value;
+
+return self;</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(NSString
+*)URLEncodedStringValueWithEncoding:(NSStringEncoding)stringEncoding {</p>
+
+<pre>if (!self.value || [self.value isEqual:[NSNull null]]) {
+    return AFPercentEscapedQueryStringKeyFromStringWithEncoding([self.field description], stringEncoding);
+} else {
+    return [NSString stringWithFormat:@&quot;%@=%@&quot;, AFPercentEscapedQueryStringKeyFromStringWithEncoding([self.field description], stringEncoding), AFPercentEscapedQueryStringValueFromStringWithEncoding([self.value description], stringEncoding)];
+}</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>@end</p>
+
+<p>pragma mark -</p>
+
+<p>extern NSArray * AFQueryStringPairsFromDictionary(NSDictionary
+*dictionary); extern NSArray * AFQueryStringPairsFromKeyAndValue(NSString
+*key, id value);</p>
+
+<p>static NSString * AFQueryStringFromParametersWithEncoding(NSDictionary
+*parameters, NSStringEncoding stringEncoding) {</p>
+
+<pre>NSMutableArray *mutablePairs = [NSMutableArray array];
+for (AFQueryStringPair *pair in AFQueryStringPairsFromDictionary(parameters)) {
+    [mutablePairs addObject:[pair URLEncodedStringValueWithEncoding:stringEncoding]];
+}
+
+return [mutablePairs componentsJoinedByString:@&quot;&amp;&quot;];</pre>
+
+<p>}</p>
+
+<p>NSArray * AFQueryStringPairsFromDictionary(NSDictionary *dictionary) {</p>
+
+<pre class="ruby"><span class="ruby-keyword">return</span> <span class="ruby-constant">AFQueryStringPairsFromKeyAndValue</span>(<span class="ruby-keyword">nil</span>, <span class="ruby-identifier">dictionary</span>);
+</pre>
+
+<p>}</p>
+
+<p>NSArray * AFQueryStringPairsFromKeyAndValue(NSString *key, id value) {</p>
+
+<pre>NSMutableArray *mutableQueryStringComponents = [NSMutableArray array];
+
+NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@&quot;description&quot; ascending:YES selector:@selector(compare:)];
+
+if ([value isKindOfClass:[NSDictionary class]]) {
+    NSDictionary *dictionary = value;
+    // Sort dictionary keys to ensure consistent ordering in query string, which is important when deserializing potentially ambiguous sequences, such as an array of dictionaries
+    for (id nestedKey in [dictionary.allKeys sortedArrayUsingDescriptors:@[ sortDescriptor ]]) {
+        id nestedValue = [dictionary objectForKey:nestedKey];
+        if (nestedValue) {
+            [mutableQueryStringComponents addObjectsFromArray:AFQueryStringPairsFromKeyAndValue((key ? [NSString stringWithFormat:@&quot;%@[%@]&quot;, key, nestedKey] : nestedKey), nestedValue)];
+        }
+    }
+} else if ([value isKindOfClass:[NSArray class]]) {
+    NSArray *array = value;
+    for (id nestedValue in array) {
+        [mutableQueryStringComponents addObjectsFromArray:AFQueryStringPairsFromKeyAndValue([NSString stringWithFormat:@&quot;%@[]&quot;, key], nestedValue)];
+    }
+} else if ([value isKindOfClass:[NSSet class]]) {
+    NSSet *set = value;
+    for (id obj in [set sortedArrayUsingDescriptors:@[ sortDescriptor ]]) {
+        [mutableQueryStringComponents addObjectsFromArray:AFQueryStringPairsFromKeyAndValue(key, obj)];
+    }
+} else {
+    [mutableQueryStringComponents addObject:[[AFQueryStringPair alloc] initWithField:key value:value]];
+}
+
+return mutableQueryStringComponents;</pre>
+
+<p>}</p>
+
+<p>pragma mark -</p>
+
+<p>@interface AFStreamingMultipartFormData : NSObject
+&lt;AFMultipartFormData&gt;</p>
+<ul><li>
+<p>(instancetype)initWithURLRequest:(NSMutableURLRequest *)urlRequest</p>
+
+<pre>stringEncoding:(NSStringEncoding)encoding;</pre>
+</li><li>
+<p>(NSMutableURLRequest *)requestByFinalizingMultipartFormData;</p>
+</li></ul>
+
+<p>@end</p>
+
+<p>pragma mark -</p>
+
+<p>static NSArray * AFHTTPRequestSerializerObservedKeyPaths() {</p>
+
+<pre>static NSArray *_AFHTTPRequestSerializerObservedKeyPaths = nil;
+static dispatch_once_t onceToken;
+dispatch_once(&amp;onceToken, ^{
+    _AFHTTPRequestSerializerObservedKeyPaths = @[NSStringFromSelector(@selector(allowsCellularAccess)), NSStringFromSelector(@selector(cachePolicy)), NSStringFromSelector(@selector(HTTPShouldHandleCookies)), NSStringFromSelector(@selector(HTTPShouldUsePipelining)), NSStringFromSelector(@selector(networkServiceType)), NSStringFromSelector(@selector(timeoutInterval))];
+});
+
+return _AFHTTPRequestSerializerObservedKeyPaths;</pre>
+
+<p>}</p>
+
+<p>static void *AFHTTPRequestSerializerObserverContext =
+&amp;AFHTTPRequestSerializerObserverContext;</p>
+
+<p>@interface AFHTTPRequestSerializer () @property (readwrite, nonatomic,
+strong) NSMutableSet *mutableObservedChangedKeyPaths; @property (readwrite,
+nonatomic, strong) NSMutableDictionary *mutableHTTPRequestHeaders;
+@property (readwrite, nonatomic, assign)
+AFHTTPRequestQueryStringSerializationStyle queryStringSerializationStyle;
+@property (readwrite, nonatomic, copy) AFQueryStringSerializationBlock
+queryStringSerialization; @end</p>
+
+<p>@implementation AFHTTPRequestSerializer</p>
+
+<p>+ (instancetype)serializer {</p>
+
+<pre>return [[self alloc] init];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(instancetype)init {</p>
+
+<pre>self = [super init];
+if (!self) {
+    return nil;
+}
+
+self.stringEncoding = NSUTF8StringEncoding;
+
+self.mutableHTTPRequestHeaders = [NSMutableDictionary dictionary];
+
+// Accept-Language HTTP Header; see http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.4
+NSMutableArray *acceptLanguagesComponents = [NSMutableArray array];
+[[NSLocale preferredLanguages] enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+    float q = 1.0f - (idx * 0.1f);
+    [acceptLanguagesComponents addObject:[NSString stringWithFormat:@&quot;%@;q=%0.1g&quot;, obj, q]];
+    *stop = q &lt;= 0.5f;
+}];
+[self setValue:[acceptLanguagesComponents componentsJoinedByString:@&quot;, &quot;] forHTTPHeaderField:@&quot;Accept-Language&quot;];
+
+NSString *userAgent = nil;</pre>
+</li></ul>
+
+<p>pragma clang diagnostic push pragma clang diagnostic ignored “-Wgnu” if
+defined(__IPHONE_OS_VERSION_MIN_REQUIRED)</p>
+
+<pre>// User-Agent Header; see http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43
+userAgent = [NSString stringWithFormat:@&quot;%@/%@ (%@; iOS %@; Scale/%0.2f)&quot;, [[[NSBundle mainBundle] infoDictionary] objectForKey:(__bridge NSString *)kCFBundleExecutableKey] ?: [[[NSBundle mainBundle] infoDictionary] objectForKey:(__bridge NSString *)kCFBundleIdentifierKey], [[[NSBundle mainBundle] infoDictionary] objectForKey:@&quot;CFBundleShortVersionString&quot;] ?: [[[NSBundle mainBundle] infoDictionary] objectForKey:(__bridge NSString *)kCFBundleVersionKey], [[UIDevice currentDevice] model], [[UIDevice currentDevice] systemVersion], [[UIScreen mainScreen] scale]];</pre>
+
+<p>elif defined(__MAC_OS_X_VERSION_MIN_REQUIRED)</p>
+
+<pre>userAgent = [NSString stringWithFormat:@&quot;%@/%@ (Mac OS X %@)&quot;, [[[NSBundle mainBundle] infoDictionary] objectForKey:(__bridge NSString *)kCFBundleExecutableKey] ?: [[[NSBundle mainBundle] infoDictionary] objectForKey:(__bridge NSString *)kCFBundleIdentifierKey], [[[NSBundle mainBundle] infoDictionary] objectForKey:@&quot;CFBundleShortVersionString&quot;] ?: [[[NSBundle mainBundle] infoDictionary] objectForKey:(__bridge NSString *)kCFBundleVersionKey], [[NSProcessInfo processInfo] operatingSystemVersionString]];</pre>
+
+<p>endif pragma clang diagnostic pop</p>
+
+<pre>if (userAgent) {
+    if (![userAgent canBeConvertedToEncoding:NSASCIIStringEncoding]) {
+        NSMutableString *mutableUserAgent = [userAgent mutableCopy];
+        if (CFStringTransform((__bridge CFMutableStringRef)(mutableUserAgent), NULL, (__bridge CFStringRef)@&quot;Any-Latin; Latin-ASCII; [:^ASCII:] Remove&quot;, false)) {
+            userAgent = mutableUserAgent;
+        }
+    }
+    [self setValue:userAgent forHTTPHeaderField:@&quot;User-Agent&quot;];
+}
+
+// HTTP Method Definitions; see http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html
+self.HTTPMethodsEncodingParametersInURI = [NSSet setWithObjects:@&quot;GET&quot;, @&quot;HEAD&quot;, @&quot;DELETE&quot;, nil];
+
+self.mutableObservedChangedKeyPaths = [NSMutableSet set];
+for (NSString *keyPath in AFHTTPRequestSerializerObservedKeyPaths()) {
+    if ([self respondsToSelector:NSSelectorFromString(keyPath)]) {
+        [self addObserver:self forKeyPath:keyPath options:NSKeyValueObservingOptionNew context:AFHTTPRequestSerializerObserverContext];
+    }
+}
+
+return self;</pre>
+
+<p>}</p>
+<ul><li>
+<p>(void)dealloc {</p>
+
+<pre>for (NSString *keyPath in AFHTTPRequestSerializerObservedKeyPaths()) {
+    if ([self respondsToSelector:NSSelectorFromString(keyPath)]) {
+        [self removeObserver:self forKeyPath:keyPath context:AFHTTPRequestSerializerObserverContext];
+    }
+}</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark -</p>
+
+<p>// Workarounds for crashing behavior using Key-Value Observing with XCTest
+// See <a
+href="https://github.com/AFNetworking/AFNetworking/issues/2523">github.com/AFNetworking/AFNetworking/issues/2523</a></p>
+<ul><li>
+<p>(void)setAllowsCellularAccess:(BOOL)allowsCellularAccess {</p>
+
+<pre>[self willChangeValueForKey:NSStringFromSelector(@selector(allowsCellularAccess))];
+_allowsCellularAccess = allowsCellularAccess;
+[self didChangeValueForKey:NSStringFromSelector(@selector(allowsCellularAccess))];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)setCachePolicy:(NSURLRequestCachePolicy)cachePolicy {</p>
+
+<pre>[self willChangeValueForKey:NSStringFromSelector(@selector(cachePolicy))];
+_cachePolicy = cachePolicy;
+[self didChangeValueForKey:NSStringFromSelector(@selector(cachePolicy))];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)setHTTPShouldHandleCookies:(BOOL)HTTPShouldHandleCookies {</p>
+
+<pre>[self willChangeValueForKey:NSStringFromSelector(@selector(HTTPShouldHandleCookies))];
+_HTTPShouldHandleCookies = HTTPShouldHandleCookies;
+[self didChangeValueForKey:NSStringFromSelector(@selector(HTTPShouldHandleCookies))];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)setHTTPShouldUsePipelining:(BOOL)HTTPShouldUsePipelining {</p>
+
+<pre>[self willChangeValueForKey:NSStringFromSelector(@selector(HTTPShouldUsePipelining))];
+_HTTPShouldUsePipelining = HTTPShouldUsePipelining;
+[self didChangeValueForKey:NSStringFromSelector(@selector(HTTPShouldUsePipelining))];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)setNetworkServiceType:(NSURLRequestNetworkServiceType)networkServiceType
+{</p>
+
+<pre>[self willChangeValueForKey:NSStringFromSelector(@selector(networkServiceType))];
+_networkServiceType = networkServiceType;
+[self didChangeValueForKey:NSStringFromSelector(@selector(networkServiceType))];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)setTimeoutInterval:(NSTimeInterval)timeoutInterval {</p>
+
+<pre>[self willChangeValueForKey:NSStringFromSelector(@selector(timeoutInterval))];
+_timeoutInterval = timeoutInterval;
+[self didChangeValueForKey:NSStringFromSelector(@selector(timeoutInterval))];</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark -</p>
+<ul><li>
+<p>(NSDictionary *)HTTPRequestHeaders {</p>
+
+<pre>return [NSDictionary dictionaryWithDictionary:self.mutableHTTPRequestHeaders];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)setValue:(NSString *)value</p>
+</li></ul>
+
+<p>forHTTPHeaderField:(NSString *)field {</p>
+
+<pre>[self.mutableHTTPRequestHeaders setValue:value forKey:field];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(NSString *)valueForHTTPHeaderField:(NSString *)field {</p>
+
+<pre>return [self.mutableHTTPRequestHeaders valueForKey:field];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)setAuthorizationHeaderFieldWithUsername:(NSString *)username</p>
+
+<pre>password:(NSString *)password</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>    NSString *basicAuthCredentials = [NSString stringWithFormat:@&quot;%@:%@&quot;, username, password];
+[self setValue:[NSString stringWithFormat:@&quot;Basic %@&quot;, AFBase64EncodedStringFromString(basicAuthCredentials)] forHTTPHeaderField:@&quot;Authorization&quot;];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(void)setAuthorizationHeaderFieldWithToken:(NSString *)token {</p>
+
+<pre>[self setValue:[NSString stringWithFormat:@&quot;Token token=\&quot;%@\&quot;&quot;, token] forHTTPHeaderField:@&quot;Authorization&quot;];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)clearAuthorizationHeader {</p>
+
+<pre>[self.mutableHTTPRequestHeaders removeObjectForKey:@&quot;Authorization&quot;];</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark -</p>
+<ul><li>
+<p>(void)setQueryStringSerializationWithStyle:(AFHTTPRequestQueryStringSerializationStyle)style
+{</p>
+
+<pre class="ruby"><span class="ruby-keyword">self</span>.<span class="ruby-identifier">queryStringSerializationStyle</span> = <span class="ruby-identifier">style</span>;
+<span class="ruby-keyword">self</span>.<span class="ruby-identifier">queryStringSerialization</span> = <span class="ruby-keyword">nil</span>;
+</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)setQueryStringSerializationWithBlock:(NSString *(^)(NSURLRequest *,
+id, NSError *__autoreleasing *))block {</p>
+
+<pre class="ruby"><span class="ruby-keyword">self</span>.<span class="ruby-identifier">queryStringSerialization</span> = <span class="ruby-identifier">block</span>;
+</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark -</p>
+<ul><li>
+<p>(NSMutableURLRequest *)requestWithMethod:(NSString *)method</p>
+
+<pre> URLString:(NSString *)URLString
+parameters:(id)parameters</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>return [self requestWithMethod:method URLString:URLString parameters:parameters error:nil];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(NSMutableURLRequest *)requestWithMethod:(NSString *)method</p>
+
+<pre> URLString:(NSString *)URLString
+parameters:(id)parameters
+     error:(NSError *__autoreleasing *)error</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>NSParameterAssert(method);
+NSParameterAssert(URLString);
+
+NSURL *url = [NSURL URLWithString:URLString];
+
+NSParameterAssert(url);
+
+NSMutableURLRequest *mutableRequest = [[NSMutableURLRequest alloc] initWithURL:url];
+mutableRequest.HTTPMethod = method;
+
+for (NSString *keyPath in AFHTTPRequestSerializerObservedKeyPaths()) {
+    if ([self.mutableObservedChangedKeyPaths containsObject:keyPath]) {
+        [mutableRequest setValue:[self valueForKeyPath:keyPath] forKey:keyPath];
+    }
+}
+
+mutableRequest = [[self requestBySerializingRequest:mutableRequest withParameters:parameters error:error] mutableCopy];
+
+    return mutableRequest;</pre>
+
+<p>}</p>
+<ul><li>
+<p>(NSMutableURLRequest *)multipartFormRequestWithMethod:(NSString *)method</p>
+
+<pre>                URLString:(NSString *)URLString
+               parameters:(NSDictionary *)parameters
+constructingBodyWithBlock:(void (^)(id &lt;AFMultipartFormData&gt; formData))block</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>return [self multipartFormRequestWithMethod:method URLString:URLString parameters:parameters constructingBodyWithBlock:block error:nil];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(NSMutableURLRequest *)multipartFormRequestWithMethod:(NSString *)method</p>
+
+<pre>                URLString:(NSString *)URLString
+               parameters:(NSDictionary *)parameters
+constructingBodyWithBlock:(void (^)(id &lt;AFMultipartFormData&gt; formData))block
+                    error:(NSError *__autoreleasing *)error</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>NSParameterAssert(method);
+NSParameterAssert(![method isEqualToString:@&quot;GET&quot;] &amp;&amp; ![method isEqualToString:@&quot;HEAD&quot;]);
+
+NSMutableURLRequest *mutableRequest = [self requestWithMethod:method URLString:URLString parameters:nil error:error];
+
+__block AFStreamingMultipartFormData *formData = [[AFStreamingMultipartFormData alloc] initWithURLRequest:mutableRequest stringEncoding:NSUTF8StringEncoding];
+
+if (parameters) {
+    for (AFQueryStringPair *pair in AFQueryStringPairsFromDictionary(parameters)) {
+        NSData *data = nil;
+        if ([pair.value isKindOfClass:[NSData class]]) {
+            data = pair.value;
+        } else if ([pair.value isEqual:[NSNull null]]) {
+            data = [NSData data];
+        } else {
+            data = [[pair.value description] dataUsingEncoding:self.stringEncoding];
+        }
+
+        if (data) {
+            [formData appendPartWithFormData:data name:[pair.field description]];
+        }
+    }
+}
+
+if (block) {
+    block(formData);
+}
+
+return [formData requestByFinalizingMultipartFormData];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(NSMutableURLRequest *)requestWithMultipartFormRequest:(NSURLRequest
+*)request</p>
+
+<pre>writingStreamContentsToFile:(NSURL *)fileURL
+          completionHandler:(void (^)(NSError *error))handler</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>NSParameterAssert(request.HTTPBodyStream);
+NSParameterAssert([fileURL isFileURL]);
+
+NSInputStream *inputStream = request.HTTPBodyStream;
+NSOutputStream *outputStream = [[NSOutputStream alloc] initWithURL:fileURL append:NO];
+__block NSError *error = nil;
+
+dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+    [inputStream scheduleInRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
+    [outputStream scheduleInRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
+
+    [inputStream open];
+    [outputStream open];
+
+    while ([inputStream hasBytesAvailable] &amp;&amp; [outputStream hasSpaceAvailable]) {
+        uint8_t buffer[1024];
+
+        NSInteger bytesRead = [inputStream read:buffer maxLength:1024];
+        if (inputStream.streamError || bytesRead &lt; 0) {
+            error = inputStream.streamError;
+            break;
+        }
+
+        NSInteger bytesWritten = [outputStream write:buffer maxLength:(NSUInteger)bytesRead];
+        if (outputStream.streamError || bytesWritten &lt; 0) {
+            error = outputStream.streamError;
+            break;
+        }
+
+        if (bytesRead == 0 &amp;&amp; bytesWritten == 0) {
+            break;
+        }
+    }
+
+    [outputStream close];
+    [inputStream close];
+
+    if (handler) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            handler(error);
+        });
+    }
+});
+
+NSMutableURLRequest *mutableRequest = [request mutableCopy];
+mutableRequest.HTTPBodyStream = nil;
+
+return mutableRequest;</pre>
+
+<p>}</p>
+
+<p>pragma mark - AFURLRequestSerialization</p>
+<ul><li>
+<p>(NSURLRequest *)requestBySerializingRequest:(NSURLRequest *)request</p>
+
+<pre>withParameters:(id)parameters
+         error:(NSError *__autoreleasing *)error</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>NSParameterAssert(request);
+
+NSMutableURLRequest *mutableRequest = [request mutableCopy];
+
+[self.HTTPRequestHeaders enumerateKeysAndObjectsUsingBlock:^(id field, id value, BOOL * __unused stop) {
+    if (![request valueForHTTPHeaderField:field]) {
+        [mutableRequest setValue:value forHTTPHeaderField:field];
+    }
+}];
+
+if (parameters) {
+    NSString *query = nil;
+    if (self.queryStringSerialization) {
+        NSError *serializationError;
+        query = self.queryStringSerialization(request, parameters, &amp;serializationError);
+
+        if (serializationError) {
+            if (error) {
+                *error = serializationError;
+            }
+
+            return nil;
+        }
+    } else {
+        switch (self.queryStringSerializationStyle) {
+            case AFHTTPRequestQueryStringDefaultStyle:
+                query = AFQueryStringFromParametersWithEncoding(parameters, self.stringEncoding);
+                break;
+        }
+    }
+
+    if ([self.HTTPMethodsEncodingParametersInURI containsObject:[[request HTTPMethod] uppercaseString]]) {
+        mutableRequest.URL = [NSURL URLWithString:[[mutableRequest.URL absoluteString] stringByAppendingFormat:mutableRequest.URL.query ? @&quot;&amp;%@&quot; : @&quot;?%@&quot;, query]];
+    } else {
+        if (![mutableRequest valueForHTTPHeaderField:@&quot;Content-Type&quot;]) {
+            [mutableRequest setValue:@&quot;application/x-www-form-urlencoded&quot; forHTTPHeaderField:@&quot;Content-Type&quot;];
+        }
+        [mutableRequest setHTTPBody:[query dataUsingEncoding:self.stringEncoding]];
+    }
+}
+
+return mutableRequest;</pre>
+
+<p>}</p>
+
+<p>pragma mark - NSKeyValueObserving</p>
+
+<p>+ (BOOL)automaticallyNotifiesObserversForKey:(NSString *)key {</p>
+
+<pre>if ([AFHTTPRequestSerializerObservedKeyPaths() containsObject:key]) {
+    return NO;
+}
+
+return [super automaticallyNotifiesObserversForKey:key];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(void)observeValueForKeyPath:(NSString *)keyPath</p>
+
+<pre>ofObject:(__unused id)object
+  change:(NSDictionary *)change
+ context:(void *)context</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>if (context == AFHTTPRequestSerializerObserverContext) {
+    if ([change[NSKeyValueChangeNewKey] isEqual:[NSNull null]]) {
+        [self.mutableObservedChangedKeyPaths removeObject:keyPath];
+    } else {
+        [self.mutableObservedChangedKeyPaths addObject:keyPath];
+    }
+}</pre>
+
+<p>}</p>
+
+<p>pragma mark - NSSecureCoding</p>
+
+<p>+ (BOOL)supportsSecureCoding {</p>
+
+<pre class="ruby"><span class="ruby-keyword">return</span> <span class="ruby-constant">YES</span>;
+</pre>
+
+<p>}</p>
+<ul><li>
+<p>(id)initWithCoder:(NSCoder *)decoder {</p>
+
+<pre>self = [self init];
+if (!self) {
+    return nil;
+}
+
+self.mutableHTTPRequestHeaders = [[decoder decodeObjectOfClass:[NSDictionary class] forKey:NSStringFromSelector(@selector(mutableHTTPRequestHeaders))] mutableCopy];
+self.queryStringSerializationStyle = [[decoder decodeObjectOfClass:[NSNumber class] forKey:NSStringFromSelector(@selector(queryStringSerializationStyle))] unsignedIntegerValue];
+
+return self;</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)encodeWithCoder:(NSCoder *)coder {</p>
+
+<pre>[coder encodeObject:self.mutableHTTPRequestHeaders forKey:NSStringFromSelector(@selector(mutableHTTPRequestHeaders))];
+[coder encodeInteger:self.queryStringSerializationStyle forKey:NSStringFromSelector(@selector(queryStringSerializationStyle))];</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark - NSCopying</p>
+<ul><li>
+<p>(id)copyWithZone:(NSZone *)zone {</p>
+
+<pre>AFHTTPRequestSerializer *serializer = [[[self class] allocWithZone:zone] init];
+serializer.mutableHTTPRequestHeaders = [self.mutableHTTPRequestHeaders mutableCopyWithZone:zone];
+serializer.queryStringSerializationStyle = self.queryStringSerializationStyle;
+serializer.queryStringSerialization = self.queryStringSerialization;
+
+return serializer;</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>@end</p>
+
+<p>pragma mark -</p>
+
+<p>static NSString * AFCreateMultipartFormBoundary() {</p>
+
+<pre>return [NSString stringWithFormat:@&quot;Boundary+%08X%08X&quot;, arc4random(), arc4random()];</pre>
+
+<p>}</p>
+
+<p>static NSString * const kAFMultipartFormCRLF = @“rn”;</p>
+
+<p>static inline NSString * AFMultipartFormInitialBoundary(NSString *boundary)
+{</p>
+
+<pre>return [NSString stringWithFormat:@&quot;--%@%@&quot;, boundary, kAFMultipartFormCRLF];</pre>
+
+<p>}</p>
+
+<p>static inline NSString * AFMultipartFormEncapsulationBoundary(NSString
+*boundary) {</p>
+
+<pre>return [NSString stringWithFormat:@&quot;%@--%@%@&quot;, kAFMultipartFormCRLF, boundary, kAFMultipartFormCRLF];</pre>
+
+<p>}</p>
+
+<p>static inline NSString * AFMultipartFormFinalBoundary(NSString *boundary) {</p>
+
+<pre>return [NSString stringWithFormat:@&quot;%@--%@--%@&quot;, kAFMultipartFormCRLF, boundary, kAFMultipartFormCRLF];</pre>
+
+<p>}</p>
+
+<p>static inline NSString * AFContentTypeForPathExtension(NSString *extension)
+{ ifdef __UTTYPE__</p>
+
+<pre>NSString *UTI = (__bridge_transfer NSString *)UTTypeCreatePreferredIdentifierForTag(kUTTagClassFilenameExtension, (__bridge CFStringRef)extension, NULL);
+NSString *contentType = (__bridge_transfer NSString *)UTTypeCopyPreferredTagWithClass((__bridge CFStringRef)UTI, kUTTagClassMIMEType);
+if (!contentType) {
+    return @&quot;application/octet-stream&quot;;
+} else {
+    return contentType;
+}</pre>
+
+<p>else pragma unused (extension)</p>
+
+<pre>return @&quot;application/octet-stream&quot;;</pre>
+
+<p>endif }</p>
+
+<p>NSUInteger const kAFUploadStream3GSuggestedPacketSize = 1024 * 16;
+NSTimeInterval const kAFUploadStream3GSuggestedDelay = 0.2;</p>
+
+<p>@interface AFHTTPBodyPart : NSObject @property (nonatomic, assign)
+NSStringEncoding stringEncoding; @property (nonatomic, strong) NSDictionary
+*headers; @property (nonatomic, copy) NSString *boundary; @property
+(nonatomic, strong) id body; @property (nonatomic, assign) unsigned long
+long bodyContentLength; @property (nonatomic, strong) NSInputStream
+*inputStream;</p>
+
+<p>@property (nonatomic, assign) BOOL hasInitialBoundary; @property
+(nonatomic, assign) BOOL hasFinalBoundary;</p>
+
+<p>@property (readonly, nonatomic, assign, getter = hasBytesAvailable) BOOL
+bytesAvailable; @property (readonly, nonatomic, assign) unsigned long long
+contentLength;</p>
+<ul><li>
+<p>(NSInteger)read:(uint8_t *)buffer</p>
+
+<pre>maxLength:(NSUInteger)length;</pre>
+</li></ul>
+
+<p>@end</p>
+
+<p>@interface AFMultipartBodyStream : NSInputStream &lt;NSStreamDelegate&gt;
+@property (nonatomic, assign) NSUInteger numberOfBytesInPacket; @property
+(nonatomic, assign) NSTimeInterval delay; @property (nonatomic, strong)
+NSInputStream *inputStream; @property (readonly, nonatomic, assign)
+unsigned long long contentLength; @property (readonly, nonatomic, assign,
+getter = isEmpty) BOOL empty;</p>
+<ul><li>
+<p>(id)initWithStringEncoding:(NSStringEncoding)encoding;</p>
+</li><li>
+<p>(void)setInitialAndFinalBoundaries;</p>
+</li><li>
+<p>(void)appendHTTPBodyPart:(AFHTTPBodyPart *)bodyPart;</p>
+</li></ul>
+
+<p>@end</p>
+
+<p>pragma mark -</p>
+
+<p>@interface AFStreamingMultipartFormData () @property (readwrite, nonatomic,
+copy) NSMutableURLRequest *request; @property (readwrite, nonatomic,
+assign) NSStringEncoding stringEncoding; @property (readwrite, nonatomic,
+copy) NSString *boundary; @property (readwrite, nonatomic, strong)
+AFMultipartBodyStream *bodyStream; @end</p>
+
+<p>@implementation AFStreamingMultipartFormData</p>
+<ul><li>
+<p>(id)initWithURLRequest:(NSMutableURLRequest *)urlRequest</p>
+
+<pre>stringEncoding:(NSStringEncoding)encoding</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>self = [super init];
+if (!self) {
+    return nil;
+}
+
+self.request = urlRequest;
+self.stringEncoding = encoding;
+self.boundary = AFCreateMultipartFormBoundary();
+self.bodyStream = [[AFMultipartBodyStream alloc] initWithStringEncoding:encoding];
+
+return self;</pre>
+
+<p>}</p>
+<ul><li>
+<p>(BOOL)appendPartWithFileURL:(NSURL *)fileURL</p>
+
+<pre> name:(NSString *)name
+error:(NSError * __autoreleasing *)error</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>NSParameterAssert(fileURL);
+NSParameterAssert(name);
+
+NSString *fileName = [fileURL lastPathComponent];
+NSString *mimeType = AFContentTypeForPathExtension([fileURL pathExtension]);
+
+return [self appendPartWithFileURL:fileURL name:name fileName:fileName mimeType:mimeType error:error];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(BOOL)appendPartWithFileURL:(NSURL *)fileURL</p>
+
+<pre>    name:(NSString *)name
+fileName:(NSString *)fileName
+mimeType:(NSString *)mimeType
+   error:(NSError * __autoreleasing *)error</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>NSParameterAssert(fileURL);
+NSParameterAssert(name);
+NSParameterAssert(fileName);
+NSParameterAssert(mimeType);
+
+if (![fileURL isFileURL]) {
+    NSDictionary *userInfo = @{NSLocalizedFailureReasonErrorKey: NSLocalizedStringFromTable(@&quot;Expected URL to be a file URL&quot;, @&quot;AFNetworking&quot;, nil)};
+    if (error) {
+        *error = [[NSError alloc] initWithDomain:AFURLRequestSerializationErrorDomain code:NSURLErrorBadURL userInfo:userInfo];
+    }
+
+    return NO;
+} else if ([fileURL checkResourceIsReachableAndReturnError:error] == NO) {
+    NSDictionary *userInfo = @{NSLocalizedFailureReasonErrorKey: NSLocalizedStringFromTable(@&quot;File URL not reachable.&quot;, @&quot;AFNetworking&quot;, nil)};
+    if (error) {
+        *error = [[NSError alloc] initWithDomain:AFURLRequestSerializationErrorDomain code:NSURLErrorBadURL userInfo:userInfo];
+    }
+
+    return NO;
+}
+
+NSDictionary *fileAttributes = [[NSFileManager defaultManager] attributesOfItemAtPath:[fileURL path] error:error];
+if (!fileAttributes) {
+    return NO;
+}
+
+NSMutableDictionary *mutableHeaders = [NSMutableDictionary dictionary];
+[mutableHeaders setValue:[NSString stringWithFormat:@&quot;form-data; name=\&quot;%@\&quot;; filename=\&quot;%@\&quot;&quot;, name, fileName] forKey:@&quot;Content-Disposition&quot;];
+[mutableHeaders setValue:mimeType forKey:@&quot;Content-Type&quot;];
+
+AFHTTPBodyPart *bodyPart = [[AFHTTPBodyPart alloc] init];
+bodyPart.stringEncoding = self.stringEncoding;
+bodyPart.headers = mutableHeaders;
+bodyPart.boundary = self.boundary;
+bodyPart.body = fileURL;
+bodyPart.bodyContentLength = [[fileAttributes objectForKey:NSFileSize] unsignedLongLongValue];
+[self.bodyStream appendHTTPBodyPart:bodyPart];
+
+return YES;</pre>
+
+<p>}</p>
+<ul><li>
+<p>(void)appendPartWithInputStream:(NSInputStream *)inputStream</p>
+
+<pre>    name:(NSString *)name
+fileName:(NSString *)fileName
+  length:(int64_t)length
+mimeType:(NSString *)mimeType</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>NSParameterAssert(name);
+NSParameterAssert(fileName);
+NSParameterAssert(mimeType);
+
+NSMutableDictionary *mutableHeaders = [NSMutableDictionary dictionary];
+[mutableHeaders setValue:[NSString stringWithFormat:@&quot;form-data; name=\&quot;%@\&quot;; filename=\&quot;%@\&quot;&quot;, name, fileName] forKey:@&quot;Content-Disposition&quot;];
+[mutableHeaders setValue:mimeType forKey:@&quot;Content-Type&quot;];
+
+AFHTTPBodyPart *bodyPart = [[AFHTTPBodyPart alloc] init];
+bodyPart.stringEncoding = self.stringEncoding;
+bodyPart.headers = mutableHeaders;
+bodyPart.boundary = self.boundary;
+bodyPart.body = inputStream;
+
+bodyPart.bodyContentLength = (unsigned long long)length;
+
+[self.bodyStream appendHTTPBodyPart:bodyPart];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(void)appendPartWithFileData:(NSData *)data</p>
+
+<pre>    name:(NSString *)name
+fileName:(NSString *)fileName
+mimeType:(NSString *)mimeType</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>NSParameterAssert(name);
+NSParameterAssert(fileName);
+NSParameterAssert(mimeType);
+
+NSMutableDictionary *mutableHeaders = [NSMutableDictionary dictionary];
+[mutableHeaders setValue:[NSString stringWithFormat:@&quot;form-data; name=\&quot;%@\&quot;; filename=\&quot;%@\&quot;&quot;, name, fileName] forKey:@&quot;Content-Disposition&quot;];
+[mutableHeaders setValue:mimeType forKey:@&quot;Content-Type&quot;];
+
+[self appendPartWithHeaders:mutableHeaders body:data];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(void)appendPartWithFormData:(NSData *)data</p>
+
+<pre>name:(NSString *)name</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>NSParameterAssert(name);
+
+NSMutableDictionary *mutableHeaders = [NSMutableDictionary dictionary];
+[mutableHeaders setValue:[NSString stringWithFormat:@&quot;form-data; name=\&quot;%@\&quot;&quot;, name] forKey:@&quot;Content-Disposition&quot;];
+
+[self appendPartWithHeaders:mutableHeaders body:data];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(void)appendPartWithHeaders:(NSDictionary *)headers</p>
+
+<pre>body:(NSData *)body</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>NSParameterAssert(body);
+
+AFHTTPBodyPart *bodyPart = [[AFHTTPBodyPart alloc] init];
+bodyPart.stringEncoding = self.stringEncoding;
+bodyPart.headers = headers;
+bodyPart.boundary = self.boundary;
+bodyPart.bodyContentLength = [body length];
+bodyPart.body = body;
+
+[self.bodyStream appendHTTPBodyPart:bodyPart];</pre>
+
+<p>}</p>
+<ul><li>
+<p>(void)throttleBandwidthWithPacketSize:(NSUInteger)numberOfBytes</p>
+
+<pre>delay:(NSTimeInterval)delay</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre class="ruby"><span class="ruby-keyword">self</span>.<span class="ruby-identifier">bodyStream</span>.<span class="ruby-identifier">numberOfBytesInPacket</span> = <span class="ruby-identifier">numberOfBytes</span>;
+<span class="ruby-keyword">self</span>.<span class="ruby-identifier">bodyStream</span>.<span class="ruby-identifier">delay</span> = <span class="ruby-identifier">delay</span>;
+</pre>
+
+<p>}</p>
+<ul><li>
+<p>(NSMutableURLRequest *)requestByFinalizingMultipartFormData {</p>
+
+<pre>if ([self.bodyStream isEmpty]) {
+    return self.request;
+}
+
+// Reset the initial and final boundaries to ensure correct Content-Length
+[self.bodyStream setInitialAndFinalBoundaries];
+[self.request setHTTPBodyStream:self.bodyStream];
+
+[self.request setValue:[NSString stringWithFormat:@&quot;multipart/form-data; boundary=%@&quot;, self.boundary] forHTTPHeaderField:@&quot;Content-Type&quot;];
+[self.request setValue:[NSString stringWithFormat:@&quot;%llu&quot;, [self.bodyStream contentLength]] forHTTPHeaderField:@&quot;Content-Length&quot;];
+
+return self.request;</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>@end</p>
+
+<p>pragma mark -</p>
+
+<p>@interface NSStream () @property (readwrite) NSStreamStatus streamStatus;
+@property (readwrite, copy) NSError *streamError; @end</p>
+
+<p>@interface AFMultipartBodyStream () &lt;NSCopying&gt; @property (readwrite,
+nonatomic, assign) NSStringEncoding stringEncoding; @property (readwrite,
+nonatomic, strong) NSMutableArray *HTTPBodyParts; @property (readwrite,
+nonatomic, strong) NSEnumerator *HTTPBodyPartEnumerator; @property
+(readwrite, nonatomic, strong) AFHTTPBodyPart *currentHTTPBodyPart;
+@property (readwrite, nonatomic, strong) NSOutputStream *outputStream;
+@property (readwrite, nonatomic, strong) NSMutableData *buffer; @end</p>
+
+<p>@implementation AFMultipartBodyStream pragma clang diagnostic push pragma
+clang diagnostic ignored “-Wimplicit-atomic-properties” if
+(defined(__IPHONE_OS_VERSION_MAX_ALLOWED) &amp;&amp;
+__IPHONE_OS_VERSION_MAX_ALLOWED &gt;= 80000) ||
+(defined(__MAC_OS_X_VERSION_MAX_ALLOWED) &amp;&amp;
+__MAC_OS_X_VERSION_MAX_ALLOWED &gt;= 1100) @synthesize delegate; endif
+@synthesize streamStatus; @synthesize streamError; pragma clang diagnostic
+pop</p>
+<ul><li>
+<p>(id)initWithStringEncoding:(NSStringEncoding)encoding {</p>
+
+<pre>self = [super init];
+if (!self) {
+    return nil;
+}
+
+self.stringEncoding = encoding;
+self.HTTPBodyParts = [NSMutableArray array];
+self.numberOfBytesInPacket = NSIntegerMax;
+
+return self;</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)setInitialAndFinalBoundaries {</p>
+
+<pre>if ([self.HTTPBodyParts count] &gt; 0) {
+    for (AFHTTPBodyPart *bodyPart in self.HTTPBodyParts) {
+        bodyPart.hasInitialBoundary = NO;
+        bodyPart.hasFinalBoundary = NO;
+    }
+
+    [[self.HTTPBodyParts objectAtIndex:0] setHasInitialBoundary:YES];
+    [[self.HTTPBodyParts lastObject] setHasFinalBoundary:YES];
+}</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)appendHTTPBodyPart:(AFHTTPBodyPart *)bodyPart {</p>
+
+<pre>[self.HTTPBodyParts addObject:bodyPart];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(BOOL)isEmpty {</p>
+
+<pre>return [self.HTTPBodyParts count] == 0;</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark - NSInputStream</p>
+<ul><li>
+<p>(NSInteger)read:(uint8_t *)buffer</p>
+
+<pre>maxLength:(NSUInteger)length</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>if ([self streamStatus] == NSStreamStatusClosed) {
+    return 0;
+}
+
+NSInteger totalNumberOfBytesRead = 0;</pre>
+
+<p>pragma clang diagnostic push pragma clang diagnostic ignored “-Wgnu”</p>
+
+<pre>while ((NSUInteger)totalNumberOfBytesRead &lt; MIN(length, self.numberOfBytesInPacket)) {
+    if (!self.currentHTTPBodyPart || ![self.currentHTTPBodyPart hasBytesAvailable]) {
+        if (!(self.currentHTTPBodyPart = [self.HTTPBodyPartEnumerator nextObject])) {
+            break;
+        }
+    } else {
+        NSUInteger maxLength = length - (NSUInteger)totalNumberOfBytesRead;
+        NSInteger numberOfBytesRead = [self.currentHTTPBodyPart read:&amp;buffer[totalNumberOfBytesRead] maxLength:maxLength];
+        if (numberOfBytesRead == -1) {
+            self.streamError = self.currentHTTPBodyPart.inputStream.streamError;
+            break;
+        } else {
+            totalNumberOfBytesRead += numberOfBytesRead;
+
+            if (self.delay &gt; 0.0f) {
+                [NSThread sleepForTimeInterval:self.delay];
+            }
+        }
+    }
+}</pre>
+
+<p>pragma clang diagnostic pop</p>
+
+<pre class="ruby"><span class="ruby-keyword">return</span> <span class="ruby-identifier">totalNumberOfBytesRead</span>;
+</pre>
+
+<p>}</p>
+<ul><li>
+<p>(BOOL)getBuffer:(__unused uint8_t **)buffer</p>
+
+<pre>length:(__unused NSUInteger *)len</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre class="ruby"><span class="ruby-keyword">return</span> <span class="ruby-constant">NO</span>;
+</pre>
+
+<p>}</p>
+<ul><li>
+<p>(BOOL)hasBytesAvailable {</p>
+
+<pre>return [self streamStatus] == NSStreamStatusOpen;</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark - NSStream</p>
+<ul><li>
+<p>(void)open {</p>
+
+<pre>if (self.streamStatus == NSStreamStatusOpen) {
+    return;
+}
+
+self.streamStatus = NSStreamStatusOpen;
+
+[self setInitialAndFinalBoundaries];
+self.HTTPBodyPartEnumerator = [self.HTTPBodyParts objectEnumerator];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)close {</p>
+
+<pre class="ruby"><span class="ruby-keyword">self</span>.<span class="ruby-identifier">streamStatus</span> = <span class="ruby-constant">NSStreamStatusClosed</span>;
+</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(id)propertyForKey:(__unused NSString *)key {</p>
+
+<pre class="ruby"><span class="ruby-keyword">return</span> <span class="ruby-keyword">nil</span>;
+</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(BOOL)setProperty:(__unused id)property</p>
+
+<pre>forKey:(__unused NSString *)key</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre class="ruby"><span class="ruby-keyword">return</span> <span class="ruby-constant">NO</span>;
+</pre>
+
+<p>}</p>
+<ul><li>
+<p>(void)scheduleInRunLoop:(__unused NSRunLoop *)aRunLoop</p>
+
+<pre>forMode:(__unused NSString *)mode</pre>
+</li></ul>
+
+<p>{}</p>
+<ul><li>
+<p>(void)removeFromRunLoop:(__unused NSRunLoop *)aRunLoop</p>
+
+<pre>forMode:(__unused NSString *)mode</pre>
+</li></ul>
+
+<p>{}</p>
+<ul><li>
+<p>(unsigned long long)contentLength {</p>
+
+<pre>unsigned long long length = 0;
+for (AFHTTPBodyPart *bodyPart in self.HTTPBodyParts) {
+    length += [bodyPart contentLength];
+}
+
+return length;</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark - Undocumented CFReadStream Bridged Methods</p>
+<ul><li>
+<p>(void)_scheduleInCFRunLoop:(__unused CFRunLoopRef)aRunLoop</p>
+
+<pre>forMode:(__unused CFStringRef)aMode</pre>
+</li></ul>
+
+<p>{}</p>
+<ul><li>
+<p>(void)_unscheduleFromCFRunLoop:(__unused CFRunLoopRef)aRunLoop</p>
+
+<pre>forMode:(__unused CFStringRef)aMode</pre>
+</li></ul>
+
+<p>{}</p>
+<ul><li>
+<p>(BOOL)_setCFClientFlags:(__unused CFOptionFlags)inFlags</p>
+
+<pre>             callback:(__unused CFReadStreamClientCallBack)inCallback
+              context:(__unused CFStreamClientContext *)inContext {
+return NO;</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark - NSCopying</p>
+
+<p>-(id)copyWithZone:(NSZone *)zone {</p>
+
+<pre>AFMultipartBodyStream *bodyStreamCopy = [[[self class] allocWithZone:zone] initWithStringEncoding:self.stringEncoding];
+
+for (AFHTTPBodyPart *bodyPart in self.HTTPBodyParts) {
+    [bodyStreamCopy appendHTTPBodyPart:[bodyPart copy]];
+}
+
+[bodyStreamCopy setInitialAndFinalBoundaries];
+
+return bodyStreamCopy;</pre>
+
+<p>}</p>
+
+<p>@end</p>
+
+<p>pragma mark -</p>
+
+<p>typedef enum {</p>
+
+<pre>AFEncapsulationBoundaryPhase = 1,
+AFHeaderPhase                = 2,
+AFBodyPhase                  = 3,
+AFFinalBoundaryPhase         = 4,</pre>
+
+<p>} AFHTTPBodyPartReadPhase;</p>
+
+<p>@interface AFHTTPBodyPart () &lt;NSCopying&gt; {</p>
+
+<pre class="ruby"><span class="ruby-constant">AFHTTPBodyPartReadPhase</span> <span class="ruby-identifier">_phase</span>;
+<span class="ruby-constant">NSInputStream</span> <span class="ruby-operator">*</span><span class="ruby-identifier">_inputStream</span>;
+<span class="ruby-identifier">unsigned</span> <span class="ruby-identifier">long</span> <span class="ruby-identifier">long</span> <span class="ruby-identifier">_phaseReadOffset</span>;
+</pre>
+
+<p>}</p>
+<ul><li>
+<p>(BOOL)transitionToNextPhase;</p>
+</li><li>
+<p>(NSInteger)readData:(NSData *)data</p>
+
+<pre>intoBuffer:(uint8_t *)buffer
+ maxLength:(NSUInteger)length;</pre>
+</li></ul>
+
+<p>@end</p>
+
+<p>@implementation AFHTTPBodyPart</p>
+<ul><li>
+<p>(id)init {</p>
+
+<pre>self = [super init];
+if (!self) {
+    return nil;
+}
+
+[self transitionToNextPhase];
+
+return self;</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)dealloc {</p>
+
+<pre>if (_inputStream) {
+    [_inputStream close];
+    _inputStream = nil;
+}</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(NSInputStream *)inputStream {</p>
+
+<pre>if (!_inputStream) {
+    if ([self.body isKindOfClass:[NSData class]]) {
+        _inputStream = [NSInputStream inputStreamWithData:self.body];
+    } else if ([self.body isKindOfClass:[NSURL class]]) {
+        _inputStream = [NSInputStream inputStreamWithURL:self.body];
+    } else if ([self.body isKindOfClass:[NSInputStream class]]) {
+        _inputStream = self.body;
+    } else {
+        _inputStream = [NSInputStream inputStreamWithData:[NSData data]];
+    }
+}
+
+return _inputStream;</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(NSString *)stringForHeaders {</p>
+
+<pre>NSMutableString *headerString = [NSMutableString string];
+for (NSString *field in [self.headers allKeys]) {
+    [headerString appendString:[NSString stringWithFormat:@&quot;%@: %@%@&quot;, field, [self.headers valueForKey:field], kAFMultipartFormCRLF]];
+}
+[headerString appendString:kAFMultipartFormCRLF];
+
+return [NSString stringWithString:headerString];</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(unsigned long long)contentLength {</p>
+
+<pre>unsigned long long length = 0;
+
+NSData *encapsulationBoundaryData = [([self hasInitialBoundary] ? AFMultipartFormInitialBoundary(self.boundary) : AFMultipartFormEncapsulationBoundary(self.boundary)) dataUsingEncoding:self.stringEncoding];
+length += [encapsulationBoundaryData length];
+
+NSData *headersData = [[self stringForHeaders] dataUsingEncoding:self.stringEncoding];
+length += [headersData length];
+
+length += _bodyContentLength;
+
+NSData *closingBoundaryData = ([self hasFinalBoundary] ? [AFMultipartFormFinalBoundary(self.boundary) dataUsingEncoding:self.stringEncoding] : [NSData data]);
+length += [closingBoundaryData length];
+
+return length;</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(BOOL)hasBytesAvailable {</p>
+
+<pre>// Allows `read:maxLength:` to be called again if `AFMultipartFormFinalBoundary` doesn&#39;t fit into the available buffer
+if (_phase == AFFinalBoundaryPhase) {
+    return YES;
+}</pre>
+</li></ul>
+
+<p>pragma clang diagnostic push pragma clang diagnostic ignored
+“-Wcovered-switch-default”</p>
+
+<pre>switch (self.inputStream.streamStatus) {
+    case NSStreamStatusNotOpen:
+    case NSStreamStatusOpening:
+    case NSStreamStatusOpen:
+    case NSStreamStatusReading:
+    case NSStreamStatusWriting:
+        return YES;
+    case NSStreamStatusAtEnd:
+    case NSStreamStatusClosed:
+    case NSStreamStatusError:
+    default:
+        return NO;
+}</pre>
+
+<p>pragma clang diagnostic pop }</p>
+<ul><li>
+<p>(NSInteger)read:(uint8_t *)buffer</p>
+
+<pre>maxLength:(NSUInteger)length</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>NSInteger totalNumberOfBytesRead = 0;
+
+if (_phase == AFEncapsulationBoundaryPhase) {
+    NSData *encapsulationBoundaryData = [([self hasInitialBoundary] ? AFMultipartFormInitialBoundary(self.boundary) : AFMultipartFormEncapsulationBoundary(self.boundary)) dataUsingEncoding:self.stringEncoding];
+    totalNumberOfBytesRead += [self readData:encapsulationBoundaryData intoBuffer:&amp;buffer[totalNumberOfBytesRead] maxLength:(length - (NSUInteger)totalNumberOfBytesRead)];
+}
+
+if (_phase == AFHeaderPhase) {
+    NSData *headersData = [[self stringForHeaders] dataUsingEncoding:self.stringEncoding];
+    totalNumberOfBytesRead += [self readData:headersData intoBuffer:&amp;buffer[totalNumberOfBytesRead] maxLength:(length - (NSUInteger)totalNumberOfBytesRead)];
+}
+
+if (_phase == AFBodyPhase) {
+    NSInteger numberOfBytesRead = 0;
+
+    numberOfBytesRead = [self.inputStream read:&amp;buffer[totalNumberOfBytesRead] maxLength:(length - (NSUInteger)totalNumberOfBytesRead)];
+    if (numberOfBytesRead == -1) {
+        return -1;
+    } else {
+        totalNumberOfBytesRead += numberOfBytesRead;
+
+        if ([self.inputStream streamStatus] &gt;= NSStreamStatusAtEnd) {
+            [self transitionToNextPhase];
+        }
+    }
+}
+
+if (_phase == AFFinalBoundaryPhase) {
+    NSData *closingBoundaryData = ([self hasFinalBoundary] ? [AFMultipartFormFinalBoundary(self.boundary) dataUsingEncoding:self.stringEncoding] : [NSData data]);
+    totalNumberOfBytesRead += [self readData:closingBoundaryData intoBuffer:&amp;buffer[totalNumberOfBytesRead] maxLength:(length - (NSUInteger)totalNumberOfBytesRead)];
+}
+
+return totalNumberOfBytesRead;</pre>
+
+<p>}</p>
+<ul><li>
+<p>(NSInteger)readData:(NSData *)data</p>
+
+<pre>intoBuffer:(uint8_t *)buffer
+ maxLength:(NSUInteger)length</pre>
+</li></ul>
+
+<p>{ pragma clang diagnostic push pragma clang diagnostic ignored “-Wgnu”</p>
+
+<pre>NSRange range = NSMakeRange((NSUInteger)_phaseReadOffset, MIN([data length] - ((NSUInteger)_phaseReadOffset), length));
+[data getBytes:buffer range:range];</pre>
+
+<p>pragma clang diagnostic pop</p>
+
+<pre>_phaseReadOffset += range.length;
+
+if (((NSUInteger)_phaseReadOffset) &gt;= [data length]) {
+    [self transitionToNextPhase];
+}
+
+return (NSInteger)range.length;</pre>
+
+<p>}</p>
+<ul><li>
+<p>(BOOL)transitionToNextPhase {</p>
+
+<pre>if (![[NSThread currentThread] isMainThread]) {
+    dispatch_sync(dispatch_get_main_queue(), ^{
+        [self transitionToNextPhase];
+    });
+    return YES;
+}</pre>
+</li></ul>
+
+<p>pragma clang diagnostic push pragma clang diagnostic ignored
+“-Wcovered-switch-default”</p>
+
+<pre>switch (_phase) {
+    case AFEncapsulationBoundaryPhase:
+        _phase = AFHeaderPhase;
+        break;
+    case AFHeaderPhase:
+        [self.inputStream scheduleInRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
+        [self.inputStream open];
+        _phase = AFBodyPhase;
+        break;
+    case AFBodyPhase:
+        [self.inputStream close];
+        _phase = AFFinalBoundaryPhase;
+        break;
+    case AFFinalBoundaryPhase:
+    default:
+        _phase = AFEncapsulationBoundaryPhase;
+        break;
+}
+_phaseReadOffset = 0;</pre>
+
+<p>pragma clang diagnostic pop</p>
+
+<pre class="ruby"><span class="ruby-keyword">return</span> <span class="ruby-constant">YES</span>;
+</pre>
+
+<p>}</p>
+
+<p>pragma mark - NSCopying</p>
+<ul><li>
+<p>(id)copyWithZone:(NSZone *)zone {</p>
+
+<pre>AFHTTPBodyPart *bodyPart = [[[self class] allocWithZone:zone] init];
+
+bodyPart.stringEncoding = self.stringEncoding;
+bodyPart.headers = self.headers;
+bodyPart.bodyContentLength = self.bodyContentLength;
+bodyPart.body = self.body;
+bodyPart.boundary = self.boundary;
+
+return bodyPart;</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>@end</p>
+
+<p>pragma mark -</p>
+
+<p>@implementation AFJSONRequestSerializer</p>
+
+<p>+ (instancetype)serializer {</p>
+
+<pre>return [self serializerWithWritingOptions:(NSJSONWritingOptions)0];</pre>
+
+<p>}</p>
+
+<p>+
+(instancetype)serializerWithWritingOptions:(NSJSONWritingOptions)writingOptions
+{</p>
+
+<pre>AFJSONRequestSerializer *serializer = [[self alloc] init];
+serializer.writingOptions = writingOptions;
+
+return serializer;</pre>
+
+<p>}</p>
+
+<p>pragma mark - AFURLRequestSerialization</p>
+<ul><li>
+<p>(NSURLRequest *)requestBySerializingRequest:(NSURLRequest *)request</p>
+
+<pre>withParameters:(id)parameters
+         error:(NSError *__autoreleasing *)error</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>NSParameterAssert(request);
+
+if ([self.HTTPMethodsEncodingParametersInURI containsObject:[[request HTTPMethod] uppercaseString]]) {
+    return [super requestBySerializingRequest:request withParameters:parameters error:error];
+}
+
+NSMutableURLRequest *mutableRequest = [request mutableCopy];
+
+[self.HTTPRequestHeaders enumerateKeysAndObjectsUsingBlock:^(id field, id value, BOOL * __unused stop) {
+    if (![request valueForHTTPHeaderField:field]) {
+        [mutableRequest setValue:value forHTTPHeaderField:field];
+    }
+}];
+
+if (parameters) {
+    if (![mutableRequest valueForHTTPHeaderField:@&quot;Content-Type&quot;]) {
+        [mutableRequest setValue:@&quot;application/json&quot; forHTTPHeaderField:@&quot;Content-Type&quot;];
+    }
+
+    [mutableRequest setHTTPBody:[NSJSONSerialization dataWithJSONObject:parameters options:self.writingOptions error:error]];
+}
+
+return mutableRequest;</pre>
+
+<p>}</p>
+
+<p>pragma mark - NSSecureCoding</p>
+<ul><li>
+<p>(id)initWithCoder:(NSCoder *)decoder {</p>
+
+<pre>self = [super initWithCoder:decoder];
+if (!self) {
+    return nil;
+}
+
+self.writingOptions = [[decoder decodeObjectOfClass:[NSNumber class] forKey:NSStringFromSelector(@selector(writingOptions))] unsignedIntegerValue];
+
+return self;</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)encodeWithCoder:(NSCoder *)coder {</p>
+
+<pre>[super encodeWithCoder:coder];
+
+[coder encodeInteger:self.writingOptions forKey:NSStringFromSelector(@selector(writingOptions))];</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark - NSCopying</p>
+<ul><li>
+<p>(id)copyWithZone:(NSZone *)zone {</p>
+
+<pre>AFJSONRequestSerializer *serializer = [super copyWithZone:zone];
+serializer.writingOptions = self.writingOptions;
+
+return serializer;</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>@end</p>
+
+<p>pragma mark -</p>
+
+<p>@implementation AFPropertyListRequestSerializer</p>
+
+<p>+ (instancetype)serializer {</p>
+
+<pre>return [self serializerWithFormat:NSPropertyListXMLFormat_v1_0 writeOptions:0];</pre>
+
+<p>}</p>
+
+<p>+ (instancetype)serializerWithFormat:(NSPropertyListFormat)format</p>
+
+<pre>writeOptions:(NSPropertyListWriteOptions)writeOptions</pre>
+
+<p>{</p>
+
+<pre>AFPropertyListRequestSerializer *serializer = [[self alloc] init];
+serializer.format = format;
+serializer.writeOptions = writeOptions;
+
+return serializer;</pre>
+
+<p>}</p>
+
+<p>pragma mark - AFURLRequestSerializer</p>
+<ul><li>
+<p>(NSURLRequest *)requestBySerializingRequest:(NSURLRequest *)request</p>
+
+<pre>withParameters:(id)parameters
+         error:(NSError *__autoreleasing *)error</pre>
+</li></ul>
+
+<p>{</p>
+
+<pre>NSParameterAssert(request);
+
+if ([self.HTTPMethodsEncodingParametersInURI containsObject:[[request HTTPMethod] uppercaseString]]) {
+    return [super requestBySerializingRequest:request withParameters:parameters error:error];
+}
+
+NSMutableURLRequest *mutableRequest = [request mutableCopy];
+
+[self.HTTPRequestHeaders enumerateKeysAndObjectsUsingBlock:^(id field, id value, BOOL * __unused stop) {
+    if (![request valueForHTTPHeaderField:field]) {
+        [mutableRequest setValue:value forHTTPHeaderField:field];
+    }
+}];
+
+if (parameters) {
+    if (![mutableRequest valueForHTTPHeaderField:@&quot;Content-Type&quot;]) {
+        [mutableRequest setValue:@&quot;application/x-plist&quot; forHTTPHeaderField:@&quot;Content-Type&quot;];
+    }
+
+    [mutableRequest setHTTPBody:[NSPropertyListSerialization dataWithPropertyList:parameters format:self.format options:self.writeOptions error:error]];
+}
+
+return mutableRequest;</pre>
+
+<p>}</p>
+
+<p>pragma mark - NSSecureCoding</p>
+<ul><li>
+<p>(id)initWithCoder:(NSCoder *)decoder {</p>
+
+<pre>self = [super initWithCoder:decoder];
+if (!self) {
+    return nil;
+}
+
+self.format = [[decoder decodeObjectOfClass:[NSNumber class] forKey:NSStringFromSelector(@selector(format))] unsignedIntegerValue];
+self.writeOptions = [[decoder decodeObjectOfClass:[NSNumber class] forKey:NSStringFromSelector(@selector(writeOptions))] unsignedIntegerValue];
+
+return self;</pre>
+</li></ul>
+
+<p>}</p>
+<ul><li>
+<p>(void)encodeWithCoder:(NSCoder *)coder {</p>
+
+<pre>[super encodeWithCoder:coder];
+
+[coder encodeInteger:self.format forKey:NSStringFromSelector(@selector(format))];
+[coder encodeObject:@(self.writeOptions) forKey:NSStringFromSelector(@selector(writeOptions))];</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>pragma mark - NSCopying</p>
+<ul><li>
+<p>(id)copyWithZone:(NSZone *)zone {</p>
+
+<pre>AFPropertyListRequestSerializer *serializer = [super copyWithZone:zone];
+serializer.format = self.format;
+serializer.writeOptions = self.writeOptions;
+
+return serializer;</pre>
+</li></ul>
+
+<p>}</p>
+
+<p>@end</p>
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://docs.seattlerb.org/rdoc/">RDoc</a> 4.2.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
