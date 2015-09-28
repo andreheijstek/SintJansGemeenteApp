@@ -1,6 +1,5 @@
 class MainViewController < UIViewController
   def loadView
-    puts "In MainViewController.loadView"
     @layout = MainLayout.new
     self.view = @layout.view
     view.setNeedsUpdateConstraints
