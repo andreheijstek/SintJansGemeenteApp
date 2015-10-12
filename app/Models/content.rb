@@ -19,10 +19,14 @@ class Content
         self.send("#{key}=", value)
       end
     end
+
+    # website = NewsletterWebsite.initialize(get_from_website(response))
+
   end
 
-  def self.get_from_website(response)
-  end
+  # def get_from_website(response)
+  #   puts "Data received from the JSON: #{response}"
+  # end
 
 =begin
 

@@ -1,4 +1,5 @@
 class ShowContentScreen < PM::Screen
+
   attr_accessor :content
   # This creates an instance variable @content and creates a setter and getter for it.
   # There is a default initialize method (inherited from PM::Screen) that sets this value

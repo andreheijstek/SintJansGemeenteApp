@@ -50,7 +50,7 @@ GEM
     json (1.8.3)
     methadone (1.9.1)
       bundler
-    minitest (5.8.0)
+    minitest (5.8.1)
     molinillo (0.3.1)
     motion-cocoapods (1.7.4)
       cocoapods (>= 0.34)
