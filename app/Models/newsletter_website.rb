@@ -9,6 +9,8 @@ class NewsletterWebsite
   #   puts "-- exit class NewsletterWebsite.initialize"
   # end
 
+  # TODO: Beter opvangen als er geen internet verbinding is
+
   def self.callback= (callback)
     @@callback = callback
     puts "exit NewsletterWebsite.callback =, was set to #{callback}"

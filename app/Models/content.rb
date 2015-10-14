@@ -1,5 +1,7 @@
 class Content
 
+  @@all = []
+  
   def self.all
     # TODO: Vervangen door een echte #all
     # Dus niet meer hierin contents initialiseren, maar alle contents ophalen
@@ -19,12 +21,11 @@ class Content
   attr_accessor *PROPERTIES
 
   def initialize(properties = {})
-    @@all = []
-    # properties.each do |key, value|
-    #   if PROPERTIES.member? key.to_sym
-    #     self.send("#{key}=", value)
-    #   end
-    # end
+    properties.each do |key, value|
+      if PROPERTIES.member? key.to_sym
+        self.send("#{key}=", value)
+      end
+    end
 
     # website = NewsletterWebsite.initialize(get_from_website(response))
 
@@ -36,8 +37,12 @@ class Content
 
   def self.set_all(input)
     input.each do |k, v|
-      @@all < Content.new({title: k, notes: v})
+      @@all << Content.new({title: k, notes: v})
     end
+  end
+
+  def self.clear_all
+    @@all = []
   end
 
 =begin
