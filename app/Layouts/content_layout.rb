@@ -3,6 +3,7 @@ class ContentLayout < MotionKit::Layout
     root :content do
       add UILabel, :notes
     end
+    # view.setTranslatesAutoresizingMaskIntoConstraints(false)
   end
 
   def content_style
@@ -29,7 +30,6 @@ class ContentLayout < MotionKit::Layout
     end
   end
 
-=begin
   def mededelingen_style
     background_color UIColor.redColor
   end
@@ -46,19 +46,24 @@ class ContentLayout < MotionKit::Layout
     unless @layout_constraints_added
       @layout_constraints_added = true
 
+=begin
       constraints(:scroll_view) do
         top_left x: 0, y: 0
         bottom_right x: 0, y: 0
       end
+=end
 
+=begin
       constraints(:content_view) do
         top_left x: 0, y: 0
         bottom_right x: 0, y: 0
 
-        width.equals(:root_view) # .priority(:low)
+        width.equals(:root_view).priority(:low)
         height.equals(:root_view).priority(:low)
       end
+=end
 
+=begin
       constraints(:mededelingen) do
         left 20
         width.is('50%').of(:root_view, :width).minus(30)
@@ -81,8 +86,9 @@ class ContentLayout < MotionKit::Layout
         top.equals(:mededelingen, :bottom).plus(20)
         bottom -20
       end
-    end
-  end
 =end
+    end
+
+  end
 
 end

@@ -19,7 +19,7 @@ class ShowContentScreen < PM::Screen
   end
 
   def updateViewConstraints
-    @layout.add_constraints(self)
+    @layout.add_constraints #(self)
     super
   end
 end

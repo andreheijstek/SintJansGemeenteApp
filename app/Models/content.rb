@@ -23,7 +23,7 @@ class Content
   def initialize(properties = {})
     properties.each do |key, value|
       if PROPERTIES.member? key.to_sym
-        self.send("#{key}=", value)
+        self.send("#{key}=", value.to_s)
       end
     end
 
