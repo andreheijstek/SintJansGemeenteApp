@@ -19,16 +19,6 @@ class ContentLayout < MotionKit::Layout
     end
   end
 
-  def add_constraints(controller)
-    unless @constraint_added
-      @constraint_added = true
-
-      constraints(:notes) do
-        top.equals(controller.topLayoutGuide, :bottom).plus(20)
-      end
-    end
-  end
-
   def add_constraints
     unless @layout_constraints_added
       @layout_constraints_added = true
