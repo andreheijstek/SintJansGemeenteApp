@@ -8,12 +8,12 @@ class NewsletterWebsite
     @@callback = callback
   end
 
-  def self.getJSON(json_text)
+  def self.getJSON
     @site = "https://zondagsbrief.herokuapp.com/letters/1.json"
     AFMotion::JSON.get(@site) do |result|
       if result.success?
-        json_text = result.object
-        @@callback.call(json_text)
+        @json_text = result.object
+        @@callback.call(@json_text)
       elsif result.failure?
         @@callback.call("")
       end
