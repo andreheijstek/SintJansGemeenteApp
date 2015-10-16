@@ -17,7 +17,7 @@ class ContentListScreen < PM::TableScreen
   end
 
   def get_content(data)
-    Content.set_all(data)
+    Content.all=data
     # puts "Content.all = #{Content.all}"
     Content.all.map do |c|
       puts "title = #{c.title}, notes = #{c.notes}"

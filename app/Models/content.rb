@@ -21,7 +21,7 @@ class Content
 
   # TODO Ipv set_all, een all= method maken
 
-  def self.set_all(input)
+  def self.all=(input)
     input.each do |k, v|
       @@all << Content.new({title: k, notes: v})
     end
@@ -30,5 +30,5 @@ class Content
   def self.clear_all
     @@all = []
   end
-  
+
 end
