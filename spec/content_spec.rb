@@ -12,30 +12,30 @@ describe Content do
   # Dat kan dan eindelijk ook weer eens test-driven
   # Content.set_all(data) => content.all met allemaal losse content instances
 
-  it 'should #set_all with a hash of length 0' do
-    Content.set_all({})
+  it 'should #set all with a hash of length 0' do
+    Content.all = {}
     puts "\nContent.all = #{Content.all}"
     Content.all.length.should.equal 0
     Content.clear_all
   end
 
-  it 'should #set_all with a hash of length 1' do
-    Content.set_all({id: 1})
+  it 'should #set all with a hash of length 1' do
+    Content.all = {id: 1}
     puts "\nContent.all = #{Content.all}"
     Content.all.length.should.equal 1
     Content.all.each do |content|
-      content.title.should.equal :id
-      content.notes.should.equal 1
+      content.title.should.equal "id"
+      content.notes.should.equal "1"
     end
     Content.clear_all
   end
 
-  it 'should #set_all with a hash of length 2' do
-    Content.set_all({id: 1, something: 'else'})
+  it 'should #set all with a hash of length 2' do
+    Content.all = {id: 1, something: 'else'}
     puts "\nContent.all = #{Content.all}"
     Content.all.length.should.equal 2
     Content.all[0].class.should.equal Content
-    Content.all[0].title.should.equal :id
+    Content.all[0].title.should.equal "id"
     Content.all[1].notes.should.equal "else"
     Content.clear_all
   end

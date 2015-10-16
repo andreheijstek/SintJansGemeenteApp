@@ -1,6 +1,8 @@
 class NewsletterWebsite
 
   # TODO: Beter opvangen als er geen internet verbinding is
+  # TODO: Hardcoded URL vervangen
+  # TODO: Exception oid als callback niet gezet is?
 
   def self.callback= (callback)
     @@callback = callback
