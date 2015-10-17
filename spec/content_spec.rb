@@ -1,5 +1,16 @@
 describe Content do
 
+  describe '#initialize' do
+    before do
+      Content.clear_all
+    end
+
+    it 'should have an all of 1 after initializing' do
+      Content.new
+      Content.all.length.should.equal 1
+    end
+  end
+
   describe '#all=' do
 
     after do
@@ -8,7 +19,7 @@ describe Content do
 
     it 'should set #all with a hash of length 0' do
       Content.all = {}
-      Content.all.length.should.equal 0
+      Content.all.length.should.equal 1
     end
 
     it 'should set #all with a hash of length 1' do

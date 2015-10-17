@@ -12,6 +12,7 @@ class Content
         # Note: the to_s was needed, because when clicking on a Content line with the :note as an integer crashed the app
       end
     end
+    @@all << self
   end
 
   def self.all
@@ -20,7 +21,9 @@ class Content
 
   def self.all=(input)
     input.each do |k, v|
-      @@all << Content.new({title: k, notes: v})
+      # @@all << Content.new({title: k, notes: v})
+      Content.new({title: k, notes: v})
+      # TODO: Use the PROPERTIES here as well - because this is now not automatically scaling when I add properties to Content
     end
   end
 
