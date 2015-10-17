@@ -7,6 +7,7 @@ class ContentListScreen < PM::TableScreen
               refreshing: "Refreshing data"
 
   def on_init
+    NewsletterWebsite.url = "https://zondagsbrief.herokuapp.com/letters/1.json"
     NewsletterWebsite.callback = method(:get_content)
   end
 

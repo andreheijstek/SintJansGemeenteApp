@@ -1,15 +1,22 @@
 class NewsletterWebsite
 
+  @@url = "https://zondagsbrief.herokuapp.com/letters/1.json"
+
   # TODO: Beter opvangen als er geen internet verbinding is
   # TODO: Hardcoded URL vervangen
   # TODO: Exception oid als callback niet gezet is?
+
+  def self.url=(url)
+    @@url = url
+  end
 
   def self.callback= (callback)
     @@callback = callback
   end
 
   def self.getJSON
-    @site = "https://zondagsbrief.herokuapp.com/letters/1.json"
+    @site = @@url
+
     AFMotion::JSON.get(@site) do |result|
       if result.success?
         @json_text = result.object
