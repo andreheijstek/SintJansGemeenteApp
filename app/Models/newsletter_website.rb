@@ -3,7 +3,6 @@ class NewsletterWebsite
   @@url = "https://zondagsbrief.herokuapp.com/letters/1.json"
 
   # TODO: Beter opvangen als er geen internet verbinding is
-  # TODO: Hardcoded URL vervangen
   # TODO: Exception oid als callback niet gezet is?
 
   def self.url=(url)

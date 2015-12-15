@@ -10,6 +10,7 @@ class ContentLayout < MotionKit::Layout
   end
 
   def notes_style
+    text "dummy notes text"
     number_of_lines 0 # making it multi-line
     text_alignment :left.nsalignment # NSTextAlignmentCenter
 

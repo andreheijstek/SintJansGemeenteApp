@@ -1,0 +1,19 @@
+App name with Apple (App ID): SintjansGemeente
+App ID Prefix: Value:         NHACADXY3R (Team ID)
+Bundle ID:                    com.ifocus.*
+App Identifier:               NHACADXY3R.com.ifocus.*
+
+Via het codesign commando zie ik het volgende:
+application-identifier:       NHACADXY3R.com.ifocus.SintjansGemeente
+
+Misschien is de fout dat de App soms wel/niet 'App' aan het einde heeft.
+
+Via het security commando zie ik het volgende:
+<key>AppIDName</key>	<string>SintjansGemeente</string>
+
+In Xcode
+- my apple-id is added
+- I have created signing identities for IOS development and IOS distribution
+- I have 2 provisioning profiles
+    - iOS Team Provisioning Profile* (just added by Xcode when creating a new app)
+    - test ios (added by me)
